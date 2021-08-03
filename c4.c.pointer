@@ -1,0 +1,16 @@
+int *bp;              // base pointer, point to the stack when call function
+int *sp;              // stack pointer
+char *src;            // pointer to source code string
+char *old_src;        // pointer to dump source code string
+    int Type;                      // the identifier data type(int char or pointer)
+    struct identifier *Next;       // pointer to the next identifier(Linkin List)
+// 4: old bp pointer  <- index_of_bp
+int index_of_bp;  // index of bp pointer on stack
+                    *text = PUSH; // save the lvalue's pointer
+                    // pointer type, and not `char *`
+                    // pointer subtraction
+                    // pointer movement
+                    // pointer, `not char *`
+                    printf("%d: pointer type expected\n", line);
+        // pointer type
+        // parse pointer type, note that there may exist `int ****x;`

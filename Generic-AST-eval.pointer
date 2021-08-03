@@ -1,0 +1,33 @@
+@36     pointer_type     size: @30      algn: 64       ptd : @7      
+@64     pointer_plus_expr type: @81      op 0: @82      op 1: @83     
+@77     pointer_type     size: @30      algn: 64       ptd : @99     
+@79     pointer_type     qual:   r      unql: @101     size: @30     
+@81     pointer_type     size: @30      algn: 64       ptd : @105    
+@101    pointer_type     size: @30      algn: 64       ptd : @102    
+@103    pointer_type     size: @30      algn: 64       ptd : @123    
+@124    pointer_type     size: @30      algn: 64       ptd : @143    
+@127    pointer_type     size: @30      algn: 64       ptd : @145    
+@129    pointer_type     size: @30      algn: 64       ptd : @146    
+@192    pointer_plus_expr type: @36      op 0: @59      op 1: @60     
+@202    pointer_plus_expr type: @36      op 0: @59      op 1: @60     
+@228    pointer_plus_expr type: @36      op 0: @180     op 1: @238    
+@229    pointer_plus_expr type: @36      op 0: @180     op 1: @239    
+@233    pointer_plus_expr type: @36      op 0: @59      op 1: @60     
+@264    pointer_plus_expr type: @36      op 0: @180     op 1: @275    
+@265    pointer_plus_expr type: @36      op 0: @180     op 1: @276    
+@310    pointer_plus_expr type: @36      op 0: @227     op 1: @321    
+@461    pointer_type     size: @30      algn: 64       ptd : @5      
+@480    pointer_plus_expr type: @36      op 0: @180     op 1: @491    
+@486    pointer_plus_expr type: @36      op 0: @180     op 1: @60     
+@489    pointer_plus_expr type: @36      op 0: @180     op 1: @157    
+@507    pointer_plus_expr type: @36      op 0: @18      op 1: @518    
+@508    pointer_plus_expr type: @36      op 0: @18      op 1: @519    
+@509    pointer_plus_expr type: @36      op 0: @18      op 1: @520    
+@510    pointer_plus_expr type: @36      op 0: @18      op 1: @521    
+@511    pointer_plus_expr type: @36      op 0: @18      op 1: @522    
+@515    pointer_plus_expr type: @36      op 0: @180     op 1: @60     
+@524    pointer_type     size: @30      algn: 64       ptd : @531    
+@527    pointer_plus_expr type: @36      op 0: @18      op 1: @533    
+@528    pointer_type     size: @30      algn: 64       ptd : @8      
+@532    pointer_plus_expr type: @36      op 0: @59      op 1: @60     
+@534    pointer_type     size: @30      algn: 64       ptd : @539    

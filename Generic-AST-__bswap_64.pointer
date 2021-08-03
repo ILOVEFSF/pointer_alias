@@ -1,0 +1,11 @@
+@36     pointer_type     size: @10      algn: 64       ptd : @38     
+@62     pointer_type     size: @10      algn: 64       ptd : @11     
+@72     pointer_type     size: @10      algn: 64       ptd : @77     
+@194    pointer_type     size: @10      algn: 64       ptd : @201    
+@203    pointer_type     size: @10      algn: 64       ptd : @211    
+@214    pointer_type     size: @10      algn: 64       ptd : @223    
+@303    pointer_type     size: @10      algn: 64       ptd : @309    
+@865    pointer_type     size: @10      algn: 64       ptd : @554    
+@872    pointer_type     size: @10      algn: 64       ptd : @561    
+@878    pointer_type     size: @10      algn: 64       ptd : @569    
+@1023   pointer_type     size: @10      algn: 64       ptd : @54     

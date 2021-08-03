@@ -1,0 +1,4 @@
+#This script display the pointer_type node info
+PWD=/home/test/test_gcc_pointer
+#echo "Start to dump pointer alias info"
+	grep pointer $file > $file.pointer

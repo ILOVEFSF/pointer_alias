@@ -1,0 +1,7 @@
+@13     pointer_type     size: @15      algn: 64       ptd : @23     
+@78     pointer_type     size: @15      algn: 64       ptd : @118    
+@84     pointer_type     size: @15      algn: 64       ptd : @3      
+@93     pointer_plus_expr type: @13      op 0: @82      op 1: @83     
+@131    pointer_plus_expr type: @13      op 0: @82      op 1: @83     
+@165    pointer_plus_expr type: @13      op 0: @82      op 1: @83     
+@179    pointer_plus_expr type: @13      op 0: @82      op 1: @186    

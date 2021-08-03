@@ -1,0 +1,9 @@
+@100    pointer_type     size: @45      algn: 64       ptd : @131    
+@159    pointer_type     size: @45      algn: 64       ptd : @176    
+@161    pointer_type     qual:   r      unql: @178     size: @45     
+@164    pointer_type     size: @45      algn: 64       ptd : @182    
+@171    pointer_type     size: @45      algn: 64       ptd : @142    
+@178    pointer_type     size: @45      algn: 64       ptd : @179    
+@180    pointer_type     size: @45      algn: 64       ptd : @195    
+@184    pointer_type     size: @45      algn: 64       ptd : @196    
+@205    pointer_type     size: @45      algn: 64       ptd : @192    

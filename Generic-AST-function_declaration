@@ -1,0 +1,181 @@
+@1      function_decl    name: @2       type: @3       srcp: c4.c:1259   
+                         link: extern   body: @4      
+@2      identifier_node  strg: function_declaration    lngt: 20      
+@3      function_type    unql: @5       size: @6       algn: 8       
+                         retn: @7      
+@4      bind_expr        type: @7       body: @8      
+@5      function_type    size: @6       algn: 8        retn: @7      
+@6      integer_cst      type: @9       low : 8       
+@7      void_type        name: @10      algn: 8       
+@8      statement_list   0   : @11      1   : @12      2   : @13     
+                         3   : @14      4   : @15      5   : @16     
+                         6   : @17      7   : @18      8   : @19     
+                         9   : @20      10  : @21      11  : @22     
+                         12  : @23     
+@9      integer_type     name: @24      size: @25      algn: 64      
+                         prec: 64       sign: unsigned min : @26     
+                         max : @27     
+@10     type_decl        name: @28      type: @7       srcp: <built-in>:0      
+@11     call_expr        type: @7       fn  : @29      0   : @30     
+@12     call_expr        type: @7       fn  : @31     
+@13     call_expr        type: @7       fn  : @32      0   : @33     
+@14     call_expr        type: @7       fn  : @34      0   : @35     
+@15     call_expr        type: @7       fn  : @36     
+@16     modify_expr      type: @37      op 0: @38      op 1: @39     
+@17     goto_expr        type: @7       labl: @40     
+@18     label_expr       type: @7       name: @41     
+@19     cond_expr        type: @7       op 0: @42      op 1: @43     
+@20     modify_expr      type: @37      op 0: @38      op 1: @44     
+@21     label_expr       type: @7       name: @40     
+@22     cond_expr        type: @7       op 0: @45      op 1: @46     
+                         op 2: @47     
+@23     label_expr       type: @7       name: @48     
+@24     identifier_node  strg: bit_size_type           lngt: 13      
+@25     integer_cst      type: @9       low : 64      
+@26     integer_cst      type: @9       low : 0       
+@27     integer_cst      type: @9       low : -1      
+@28     identifier_node  strg: void     lngt: 4       
+@29     addr_expr        type: @49      op 0: @50     
+@30     integer_cst      type: @51      low : 40      
+@31     addr_expr        type: @52      op 0: @53     
+@32     addr_expr        type: @49      op 0: @50     
+@33     integer_cst      type: @51      low : 41      
+@34     addr_expr        type: @49      op 0: @50     
+@35     integer_cst      type: @51      low : 123     
+@36     addr_expr        type: @54      op 0: @55     
+@37     pointer_type     size: @25      algn: 64       ptd : @56     
+@38     var_decl         name: @57      type: @37      srcp: c4.c:100    
+                         size: @25      algn: 64       used: 1       
+@39     var_decl         name: @58      type: @37      srcp: c4.c:101    
+                         size: @25      algn: 64       used: 1       
+@40     label_decl       type: @7       scpe: @1       srcp: c4.c:1280   
+                         note: artificial 
+@41     label_decl       type: @7       scpe: @1       srcp: c4.c:1280   
+                         note: artificial 
+@42     eq_expr          type: @51      op 0: @59      op 1: @60     
+@43     statement_list   0   : @61      1   : @62      2   : @63     
+@44     component_ref    type: @37      op 0: @64      op 1: @65     
+@45     truth_andif_expr type: @51      op 0: @66      op 1: @67     
+@46     goto_expr        type: @7       labl: @41     
+@47     goto_expr        type: @7       labl: @48     
+@48     label_decl       type: @7       scpe: @1       srcp: c4.c:1280   
+                         note: artificial 
+@49     pointer_type     size: @25      algn: 64       ptd : @68     
+@50     function_decl    name: @69      type: @68      srcp: c4.c:7      
+                         body: undefined               link: extern  
+@51     integer_type     name: @70      size: @71      algn: 32      
+                         prec: 32       sign: signed   min : @72     
+                         max : @73     
+@52     pointer_type     size: @25      algn: 64       ptd : @74     
+@53     function_decl    name: @75      type: @74      srcp: c4.c:1215   
+                         link: extern  
+@54     pointer_type     size: @25      algn: 64       ptd : @76     
+@55     function_decl    name: @77      type: @76      srcp: c4.c:1152   
+                         link: extern  
+@56     record_type      name: @78      size: @79      algn: 64      
+                         tag : struct   flds: @80     
+@57     identifier_node  strg: current_id              lngt: 10      
+@58     identifier_node  strg: symbols  lngt: 7       
+@59     component_ref    type: @51      op 0: @81      op 1: @82     
+@60     integer_cst      type: @51      low : 132     
+@61     modify_expr      type: @51      op 0: @83      op 1: @84     
+@62     modify_expr      type: @51      op 0: @85      op 1: @86     
+@63     modify_expr      type: @51      op 0: @87      op 1: @88     
+@64     indirect_ref     type: @56      op 0: @38     
+@65     field_decl       name: @89      type: @37      scpe: @56     
+                         srcp: c4.c:96                 size: @25     
+                         algn: 64       bpos: @90     
+@66     ne_expr          type: @51      op 0: @38      op 1: @91     
+@67     ne_expr          type: @51      op 0: @92      op 1: @93     
+@68     function_type    size: @6       algn: 8        retn: @7      
+                         prms: @94     
+@69     identifier_node  strg: match    lngt: 5       
+@70     type_decl        name: @95      type: @51      srcp: <built-in>:0      
+@71     integer_cst      type: @9       low : 32      
+@72     integer_cst      type: @51      high: -1       low : -2147483648 
+@73     integer_cst      type: @51      low : 2147483647 
+@74     function_type    unql: @5       size: @6       algn: 8       
+                         retn: @7      
+@75     identifier_node  strg: function_parameter      lngt: 18      
+@76     function_type    unql: @5       size: @6       algn: 8       
+                         retn: @7      
+@77     identifier_node  strg: function_body           lngt: 13      
+@78     identifier_node  strg: identifier              lngt: 10      
+@79     integer_cst      type: @9       low : 448     
+@80     field_decl       name: @96      type: @51      scpe: @56     
+                         srcp: c4.c:86                 chan: @97     
+                         size: @71      algn: 32       bpos: @26     
+@81     indirect_ref     type: @56      op 0: @38     
+@82     field_decl       name: @98      type: @51      scpe: @56     
+                         srcp: c4.c:89                 chan: @99     
+                         size: @71      algn: 32       bpos: @100    
+@83     component_ref    type: @51      op 0: @101     op 1: @82     
+@84     component_ref    type: @51      op 0: @102     op 1: @103    
+@85     component_ref    type: @51      op 0: @104     op 1: @99     
+@86     component_ref    type: @51      op 0: @105     op 1: @106    
+@87     component_ref    type: @51      op 0: @107     op 1: @108    
+@88     component_ref    type: @51      op 0: @109     op 1: @110    
+@89     identifier_node  strg: Next     lngt: 4       
+@90     integer_cst      type: @9       low : 384     
+@91     integer_cst      type: @37      low : 0       
+@92     component_ref    type: @51      op 0: @111     op 1: @80     
+@93     integer_cst      type: @51      low : 0       
+@94     tree_list        valu: @51      chan: @112    
+@95     identifier_node  strg: int      lngt: 3       
+@96     identifier_node  strg: Token    lngt: 5       
+@97     field_decl       name: @113     type: @51      scpe: @56     
+                         srcp: c4.c:87                 chan: @114    
+                         size: @71      algn: 32       bpos: @71     
+@98     identifier_node  strg: Id_class lngt: 8       
+@99     field_decl       name: @115     type: @51      scpe: @56     
+                         srcp: c4.c:90                 chan: @108    
+                         size: @71      algn: 32       bpos: @116    
+@100    integer_cst      type: @9       low : 128     
+@101    indirect_ref     type: @56      op 0: @38     
+@102    indirect_ref     type: @56      op 0: @38     
+@103    field_decl       name: @117     type: @51      scpe: @56     
+                         srcp: c4.c:92                 chan: @106    
+                         size: @71      algn: 32       bpos: @118    
+@104    indirect_ref     type: @56      op 0: @38     
+@105    indirect_ref     type: @56      op 0: @38     
+@106    field_decl       name: @119     type: @51      scpe: @56     
+                         srcp: c4.c:93                 chan: @110    
+                         size: @71      algn: 32       bpos: @120    
+@107    indirect_ref     type: @56      op 0: @38     
+@108    field_decl       name: @121     type: @51      scpe: @56     
+                         srcp: c4.c:91                 chan: @103    
+                         size: @71      algn: 32       bpos: @122    
+@109    indirect_ref     type: @56      op 0: @38     
+@110    field_decl       name: @123     type: @51      scpe: @56     
+                         srcp: c4.c:94                 chan: @124    
+                         size: @71      algn: 32       bpos: @125    
+@111    indirect_ref     type: @56      op 0: @38     
+@112    tree_list        valu: @7      
+@113    identifier_node  strg: Hash     lngt: 4       
+@114    field_decl       name: @126     type: @127     scpe: @56     
+                         srcp: c4.c:88                 chan: @82     
+                         size: @25      algn: 64       bpos: @25     
+@115    identifier_node  strg: Type     lngt: 4       
+@116    integer_cst      type: @9       low : 160     
+@117    identifier_node  strg: Bclass   lngt: 6       
+@118    integer_cst      type: @9       low : 224     
+@119    identifier_node  strg: Btype    lngt: 5       
+@120    integer_cst      type: @9       low : 256     
+@121    identifier_node  strg: Value    lngt: 5       
+@122    integer_cst      type: @9       low : 192     
+@123    identifier_node  strg: Bvalue   lngt: 6       
+@124    field_decl       name: @128     type: @51      scpe: @56     
+                         srcp: c4.c:95                 chan: @65     
+                         size: @71      algn: 32       bpos: @129    
+@125    integer_cst      type: @9       low : 288     
+@126    identifier_node  strg: Name     lngt: 4       
+@127    pointer_type     size: @25      algn: 64       ptd : @130    
+@128    identifier_node  strg: char_number             lngt: 11      
+@129    integer_cst      type: @9       low : 320     
+@130    integer_type     name: @131     size: @6       algn: 8       
+                         prec: 8        sign: signed   min : @132    
+                         max : @133    
+@131    type_decl        name: @134     type: @130     srcp: <built-in>:0      
+@132    integer_cst      type: @130     high: -1       low : -128    
+@133    integer_cst      type: @130     low : 127     
+@134    identifier_node  strg: char     lngt: 4       

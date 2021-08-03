@@ -1,0 +1,24 @@
+@21     pointer_type     size: @23      algn: 64       ptd : @41     
+@63     pointer_type     size: @23      algn: 64       ptd : @10     
+@137    pointer_type     size: @23      algn: 64       ptd : @219    
+@139    pointer_type     qual:   r      unql: @221     size: @23     
+@142    pointer_type     size: @23      algn: 64       ptd : @225    
+@144    pointer_type     size: @23      algn: 64       ptd : @3      
+@159    pointer_type     size: @23      algn: 64       ptd : @232    
+@221    pointer_type     size: @23      algn: 64       ptd : @222    
+@223    pointer_type     size: @23      algn: 64       ptd : @301    
+@329    pointer_plus_expr type: @63      op 0: @228     op 1: @399    
+@330    pointer_plus_expr type: @63      op 0: @228     op 1: @229    
+@393    pointer_type     size: @23      algn: 64       ptd : @482    
+@400    pointer_plus_expr type: @63      op 0: @228     op 1: @229    
+@483    pointer_type     size: @23      algn: 64       ptd : @567    
+@486    pointer_plus_expr type: @63      op 0: @228     op 1: @229    
+@736    pointer_type     size: @23      algn: 64       ptd : @779    
+@771    pointer_type     size: @23      algn: 64       ptd : @815    
+@780    pointer_type     size: @23      algn: 64       ptd : @820    
+@816    pointer_type     size: @23      algn: 64       ptd : @864    
+@982    pointer_type     size: @23      algn: 64       ptd : @1004   
+@1206   pointer_type     size: @23      algn: 64       ptd : @1217   
+@1218   pointer_type     size: @23      algn: 64       ptd : @1222   
+@1223   pointer_type     size: @23      algn: 64       ptd : @1227   
+@1224   string_cst       type: @1227   strg: %d: pointer type expected

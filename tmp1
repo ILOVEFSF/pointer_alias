@@ -1,0 +1,53 @@
+~@2826   function_decl    name:@2833    type:@2834    scpe:@155    
+                                         chain:@2835   
+                            body:@2836   
+~@2827   tree_list        valu:@72      chan:@166    
+~@2828   tree_list        valu:@62      chan:@2837   
+~@2829   tree_list        valu:@2657    chan:@2838   
+~@2830   identifier_node  strg:__sync_bool_compare_and_swap_8 
+                               
+~@2831   function_type    size:@12              retn:@2814   
+                         prms:@2839   
+~@2832   function_decl    name:@2840    type:@2841    scpe:@155    
+                                     chain:@2842   
+                         body:undefined                 
+~@2833   identifier_node  strg:test_set        
+~@2834   function_type    unql:@2127    size:@12             
+                         retn:@3      
+~@2835   function_decl    name:@2843    type:@2844    scpe:@155    
+                                         chain:@2845   
+                            body:@2846   
+~@2836   bind_expr        type:@129     body:@2847   
+~@2837   tree_list        valu:@62      chan:@166    
+~@2838   tree_list        valu:@26      chan:@2848   
+~@2839   tree_list        valu:@2657    chan:@2849   
+~@2840   identifier_node  strg:__sync_bool_compare_and_swap_16 
+                               
+~@2841   function_type    size:@12              retn:@2814   
+                         prms:@2850   
+~@2842   function_decl    name:@2851    type:@2103    scpe:@155    
+                                     chain:@2852   
+                         body:undefined                 
+~@2843   identifier_node  strg:func_set        
+~@2844   function_type    unql:@2127    size:@12             
+                         retn:@3      
+~@2845   function_decl    name:@2853    type:@2854    scpe:@155    
+                                          
+                         body:@2855   
+~@2846   bind_expr        type:@129     body:@2856   
+~@2847   statement_list   
+~@2848   tree_list        valu:@26      chan:@166    
+~@2849   tree_list        valu:@31      chan:@2857   
+~@2850   tree_list        valu:@2657    chan:@2858   
+~@2851   identifier_node  strg:__sync_val_compare_and_swap 
+                               
+~@2852   function_decl    name:@2859    type:@2860    scpe:@155    
+                                     chain:@2861   
+                         body:undefined                 
+~@2853   identifier_node  strg:main            
+~@2854   function_type    unql:@2127    size:@12             
+                         retn:@3      
+~@2855   bind_expr        type:@129     body:@2862   
+~@2856   statement_list   
+~@2857   tree_list        valu:@31      chan:@166    
+~@2858   tree_list        valu:@41      chan:@2863   

@@ -1,0 +1,5 @@
+@18     pointer_type     size: @20      algn: 64       ptd : @29     
+@23     modify_expr      type: @29      op 0: @31      op 1: @32     
+@29     pointer_type     size: @20      algn: 64       ptd : @7      
+@31     indirect_ref     type: @29      op 0: @9      
+@32     indirect_ref     type: @29      op 0: @19     

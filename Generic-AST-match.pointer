@@ -1,0 +1,6 @@
+@33     pointer_type     size: @23      algn: 64       ptd : @40     
+@42     pointer_type     size: @23      algn: 64       ptd : @50     
+@44     pointer_type     qual:   r      unql: @52      size: @23     
+@47     pointer_type     size: @23      algn: 64       ptd : @56     
+@52     pointer_type     size: @23      algn: 64       ptd : @53     
+@54     pointer_type     size: @23      algn: 64       ptd : @63     

@@ -1,0 +1,1483 @@
+@1      function_decl    name: @2       type: @3       srcp: c4.c:421    
+                         args: @4       link: extern   body: @5      
+@2      identifier_node  strg: expression              lngt: 10      
+@3      function_type    size: @6       algn: 8        retn: @7      
+                         prms: @8      
+@4      parm_decl        name: @9       type: @10      scpe: @1      
+                         srcp: c4.c:421                argt: @10     
+                         size: @11      algn: 32       used: 1       
+@5      bind_expr        type: @7       vars: @12      body: @13     
+@6      integer_cst      type: @14      low : 8       
+@7      void_type        name: @15      algn: 8       
+@8      tree_list        valu: @10      chan: @16     
+@9      identifier_node  strg: level    lngt: 5       
+@10     integer_type     name: @17      size: @11      algn: 32      
+                         prec: 32       sign: signed   min : @18     
+                         max : @19     
+@11     integer_cst      type: @14      low : 32      
+@12     var_decl         name: @20      type: @21      scpe: @1      
+                         srcp: c4.c:437                chan: @22     
+                         size: @23      algn: 64       used: 1       
+@13     statement_list   0   : @24      1   : @25      2   : @26     
+                         3   : @27      4   : @28      5   : @29     
+                         6   : @30      7   : @31      8   : @32     
+                         9   : @33      10  : @34      11  : @35     
+@14     integer_type     name: @36      size: @23      algn: 64      
+                         prec: 64       sign: unsigned min : @37     
+                         max : @38     
+@15     type_decl        name: @39      type: @7       srcp: <built-in>:0      
+@16     tree_list        valu: @7      
+@17     type_decl        name: @40      type: @10      srcp: <built-in>:0      
+@18     integer_cst      type: @10      high: -1       low : -2147483648 
+@19     integer_cst      type: @10      low : 2147483647 
+@20     identifier_node  strg: id       lngt: 2       
+@21     pointer_type     size: @23      algn: 64       ptd : @41     
+@22     var_decl         name: @42      type: @10      scpe: @1      
+                         srcp: c4.c:438                chan: @43     
+                         size: @11      algn: 32       used: 1       
+@23     integer_cst      type: @14      low : 64      
+@24     decl_expr        type: @7      
+@25     decl_expr        type: @7      
+@26     decl_expr        type: @7      
+@27     cond_expr        type: @7       op 0: @44      op 1: @45     
+@28     cond_expr        type: @7       op 0: @46      op 1: @47     
+                         op 2: @48     
+@29     goto_expr        type: @7       labl: @49     
+@30     label_expr       type: @7       name: @50     
+@31     modify_expr      type: @10      op 0: @22      op 1: @51     
+@32     cond_expr        type: @7       op 0: @52      op 1: @53     
+                         op 2: @54     
+@33     label_expr       type: @7       name: @49     
+@34     cond_expr        type: @7       op 0: @55      op 1: @56     
+                         op 2: @57     
+@35     label_expr       type: @7       name: @58     
+@36     identifier_node  strg: bit_size_type           lngt: 13      
+@37     integer_cst      type: @14      low : 0       
+@38     integer_cst      type: @14      low : -1      
+@39     identifier_node  strg: void     lngt: 4       
+@40     identifier_node  strg: int      lngt: 3       
+@41     record_type      name: @59      size: @60      algn: 64      
+                         tag : struct   flds: @61     
+@42     identifier_node  strg: tmp      lngt: 3       
+@43     var_decl         name: @62      type: @63      scpe: @1      
+                         srcp: c4.c:439                size: @23     
+                         algn: 64       used: 1       
+@44     eq_expr          type: @10      op 0: @64      op 1: @65     
+@45     statement_list   0   : @66      1   : @67     
+@46     eq_expr          type: @10      op 0: @64      op 1: @68     
+@47     statement_list   0   : @69      1   : @70      2   : @71     
+                         3   : @72     
+@48     cond_expr        type: @7       op 0: @73      op 1: @74     
+                         op 2: @75     
+@49     label_decl       type: @7       scpe: @1       srcp: c4.c:968    
+                         note: artificial 
+@50     label_decl       type: @7       scpe: @1       srcp: c4.c:968    
+                         note: artificial 
+@51     var_decl         name: @76      type: @10      srcp: c4.c:104    
+                         size: @11      algn: 32       used: 1       
+@52     eq_expr          type: @10      op 0: @64      op 1: @77     
+@53     statement_list   0   : @78      1   : @79      2   : @80     
+                         3   : @81      4   : @82     
+@54     cond_expr        type: @7       op 0: @83      op 1: @84     
+                         op 2: @85     
+@55     ge_expr          type: @10      op 0: @64      op 1: @4      
+@56     goto_expr        type: @7       labl: @50     
+@57     goto_expr        type: @7       labl: @58     
+@58     label_decl       type: @7       scpe: @1       srcp: c4.c:968    
+                         note: artificial 
+@59     identifier_node  strg: identifier              lngt: 10      
+@60     integer_cst      type: @14      low : 448     
+@61     field_decl       name: @86      type: @10      scpe: @41     
+                         srcp: c4.c:86                 chan: @87     
+                         size: @11      algn: 32       bpos: @37     
+@62     identifier_node  strg: addr     lngt: 4       
+@63     pointer_type     size: @23      algn: 64       ptd : @10     
+@64     var_decl         name: @88      type: @10      srcp: c4.c:57     
+                         size: @11      algn: 32       used: 1       
+@65     integer_cst      type: @10      low : 0       
+@66     call_expr        type: @10      fn  : @89      0   : @90     
+                         1   : @91     
+@67     call_expr        type: @7       fn  : @92      0   : @93     
+@68     integer_cst      type: @10      low : 128     
+@69     call_expr        type: @7       fn  : @94      0   : @68     
+@70     modify_expr      type: @10      op 0: @95      op 1: @96     
+@71     modify_expr      type: @10      op 0: @97      op 1: @98     
+@72     modify_expr      type: @10      op 0: @51      op 1: @96     
+@73     eq_expr          type: @10      op 0: @64      op 1: @99     
+@74     statement_list   0   : @100     1   : @101     2   : @102    
+                         3   : @103     4   : @104     5   : @105    
+                         6   : @106     7   : @107     8   : @108    
+                         9   : @109     10  : @110    
+@75     cond_expr        type: @7       op 0: @111     op 1: @112    
+                         op 2: @113    
+@76     identifier_node  strg: expr_type               lngt: 9       
+@77     integer_cst      type: @10      low : 142     
+@78     call_expr        type: @7       fn  : @114     0   : @77     
+@79     cond_expr        type: @7       op 0: @115     op 1: @116    
+                         op 2: @117    
+@80     call_expr        type: @7       fn  : @118     0   : @77     
+@81     modify_expr      type: @10      op 0: @51      op 1: @22     
+@82     modify_expr      type: @10      op 0: @119     op 1: @120    
+@83     eq_expr          type: @10      op 0: @64      op 1: @121    
+@84     statement_list   0   : @122     1   : @123     2   : @124    
+                         3   : @125     4   : @126     5   : @127    
+                         6   : @128     7   : @129     8   : @130    
+                         9   : @131    
+@85     cond_expr        type: @7       op 0: @132     op 1: @133    
+                         op 2: @134    
+@86     identifier_node  strg: Token    lngt: 5       
+@87     field_decl       name: @135     type: @10      scpe: @41     
+                         srcp: c4.c:87                 chan: @136    
+                         size: @11      algn: 32       bpos: @11     
+@88     identifier_node  strg: token    lngt: 5       
+@89     addr_expr        type: @137     op 0: @138    
+@90     nop_expr         type: @139     op 0: @140    
+@91     var_decl         name: @141     type: @10      srcp: c4.c:61     
+                         size: @11      algn: 32       used: 1       
+@92     addr_expr        type: @142     op 0: @143    
+@93     integer_cst      type: @10      high: -1       low : -1      
+@94     addr_expr        type: @144     op 0: @145    
+@95     indirect_ref     type: @10      op 0: @146    
+@96     integer_cst      type: @10      low : 1       
+@97     indirect_ref     type: @10      op 0: @147    
+@98     var_decl         name: @148     type: @10      srcp: c4.c:99     
+                         size: @11      algn: 32       used: 1       
+@99     integer_cst      type: @10      low : 34      
+@100    modify_expr      type: @10      op 0: @149     op 1: @96     
+@101    modify_expr      type: @10      op 0: @150     op 1: @98     
+@102    call_expr        type: @7       fn  : @151     0   : @99     
+@103    goto_expr        type: @7       labl: @152    
+@104    label_expr       type: @7       name: @153    
+@105    call_expr        type: @7       fn  : @154     0   : @99     
+@106    label_expr       type: @7       name: @152    
+@107    cond_expr        type: @7       op 0: @155     op 1: @156    
+                         op 2: @157    
+@108    label_expr       type: @7       name: @158    
+@109    modify_expr      type: @159     op 0: @160     op 1: @161    
+@110    modify_expr      type: @10      op 0: @51      op 1: @162    
+@111    eq_expr          type: @10      op 0: @64      op 1: @163    
+@112    statement_list   0   : @164     1   : @165     2   : @166    
+                         3   : @167     4   : @168     5   : @169    
+                         6   : @170     7   : @171     8   : @172    
+                         9   : @173     10  : @174     11  : @175    
+                         12  : @176     13  : @177     14  : @178    
+@113    cond_expr        type: @7       op 0: @179     op 1: @180    
+                         op 2: @181    
+@114    addr_expr        type: @144     op 0: @145    
+@115    truth_orif_expr  type: @10      op 0: @182     op 1: @183    
+@116    modify_expr      type: @10      op 0: @184     op 1: @185    
+@117    statement_list   0   : @186     1   : @187    
+@118    addr_expr        type: @144     op 0: @1      
+@119    indirect_ref     type: @10      op 0: @188    
+@120    cond_expr        type: @10      op 0: @189     op 1: @190    
+                         op 2: @191    
+@121    integer_cst      type: @10      low : 143     
+@122    call_expr        type: @7       fn  : @192     0   : @121    
+@123    modify_expr      type: @10      op 0: @193     op 1: @194    
+@124    modify_expr      type: @63      op 0: @43      op 1: @195    
+@125    call_expr        type: @7       fn  : @196     0   : @77     
+@126    cond_expr        type: @7       op 0: @197     op 1: @198    
+                         op 2: @199    
+@127    modify_expr      type: @10      op 0: @200     op 1: @201    
+@128    modify_expr      type: @10      op 0: @202     op 1: @162    
+@129    modify_expr      type: @63      op 0: @43      op 1: @203    
+@130    call_expr        type: @7       fn  : @204     0   : @121    
+@131    modify_expr      type: @10      op 0: @205     op 1: @206    
+@132    eq_expr          type: @10      op 0: @64      op 1: @207    
+@133    statement_list   0   : @208     1   : @209     2   : @210    
+                         3   : @211     4   : @212     5   : @213    
+@134    cond_expr        type: @7       op 0: @214     op 1: @215    
+                         op 2: @216    
+@135    identifier_node  strg: Hash     lngt: 4       
+@136    field_decl       name: @217     type: @159     scpe: @41     
+                         srcp: c4.c:88                 chan: @218    
+                         size: @23      algn: 64       bpos: @23     
+@137    pointer_type     size: @23      algn: 64       ptd : @219    
+@138    function_decl    name: @220     type: @219     srcp: stdio.h:362    
+                         body: undefined               link: extern  
+@139    pointer_type     qual:   r      unql: @221     size: @23     
+                         algn: 64       ptd : @222    
+@140    addr_expr        type: @223     op 0: @224    
+@141    identifier_node  strg: line     lngt: 4       
+@142    pointer_type     size: @23      algn: 64       ptd : @225    
+@143    function_decl    name: @226     type: @3       srcp: stdlib.h:543    
+                         body: undefined               link: extern  
+@144    pointer_type     size: @23      algn: 64       ptd : @3      
+@145    function_decl    name: @227     type: @3       srcp: c4.c:7      
+                         body: undefined               link: extern  
+@146    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@147    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@148    identifier_node  strg: token_val               lngt: 9       
+@149    indirect_ref     type: @10      op 0: @230    
+@150    indirect_ref     type: @10      op 0: @231    
+@151    addr_expr        type: @144     op 0: @145    
+@152    label_decl       type: @7       scpe: @1       srcp: c4.c:465    
+                         note: artificial 
+@153    label_decl       type: @7       scpe: @1       srcp: c4.c:465    
+                         note: artificial 
+@154    addr_expr        type: @144     op 0: @145    
+@155    eq_expr          type: @10      op 0: @64      op 1: @99     
+@156    goto_expr        type: @7       labl: @153    
+@157    goto_expr        type: @7       labl: @158    
+@158    label_decl       type: @7       scpe: @1       srcp: c4.c:465    
+                         note: artificial 
+@159    pointer_type     size: @23      algn: 64       ptd : @232    
+@160    var_decl         name: @233     type: @159     srcp: c4.c:43     
+                         size: @23      algn: 64       used: 1       
+@161    convert_expr     type: @159     op 0: @234    
+@162    integer_cst      type: @10      low : 2       
+@163    integer_cst      type: @10      low : 140     
+@164    call_expr        type: @7       fn  : @235     0   : @163    
+@165    call_expr        type: @7       fn  : @236     0   : @237    
+@166    modify_expr      type: @10      op 0: @51      op 1: @96     
+@167    cond_expr        type: @7       op 0: @238     op 1: @239    
+                         op 2: @240    
+@168    goto_expr        type: @7       labl: @241    
+@169    label_expr       type: @7       name: @242    
+@170    call_expr        type: @7       fn  : @243     0   : @244    
+@171    modify_expr      type: @10      op 0: @51      op 1: @245    
+@172    label_expr       type: @7       name: @241    
+@173    cond_expr        type: @7       op 0: @246     op 1: @247    
+                         op 2: @248    
+@174    label_expr       type: @7       name: @249    
+@175    call_expr        type: @7       fn  : @250     0   : @251    
+@176    modify_expr      type: @10      op 0: @252     op 1: @96     
+@177    modify_expr      type: @10      op 0: @253     op 1: @254    
+@178    modify_expr      type: @10      op 0: @51      op 1: @96     
+@179    eq_expr          type: @10      op 0: @64      op 1: @255    
+@180    statement_list   0   : @256     1   : @257     2   : @258    
+@181    cond_expr        type: @7       op 0: @259     op 1: @260    
+                         op 2: @261    
+@182    eq_expr          type: @10      op 0: @262     op 1: @263    
+@183    eq_expr          type: @10      op 0: @264     op 1: @265    
+@184    indirect_ref     type: @10      op 0: @228    
+@185    integer_cst      type: @10      low : 13      
+@186    call_expr        type: @10      fn  : @266     0   : @267    
+                         1   : @91     
+@187    call_expr        type: @7       fn  : @268     0   : @93     
+@188    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@189    eq_expr          type: @10      op 0: @51      op 1: @65     
+@190    integer_cst      type: @10      low : 12      
+@191    integer_cst      type: @10      low : 11      
+@192    addr_expr        type: @144     op 0: @145    
+@193    indirect_ref     type: @10      op 0: @269    
+@194    integer_cst      type: @10      low : 4       
+@195    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@196    addr_expr        type: @144     op 0: @1      
+@197    eq_expr          type: @10      op 0: @64      op 1: @270    
+@198    call_expr        type: @7       fn  : @271     0   : @270    
+@199    statement_list   0   : @272     1   : @273    
+@200    indirect_ref     type: @10      op 0: @43     
+@201    nop_expr         type: @10      op 0: @274    
+@202    indirect_ref     type: @10      op 0: @275    
+@203    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@204    addr_expr        type: @144     op 0: @1      
+@205    indirect_ref     type: @10      op 0: @43     
+@206    nop_expr         type: @10      op 0: @276    
+@207    integer_cst      type: @10      low : 144     
+@208    call_expr        type: @7       fn  : @277     0   : @207    
+@209    modify_expr      type: @10      op 0: @278     op 1: @279    
+@210    modify_expr      type: @63      op 0: @43      op 1: @280    
+@211    call_expr        type: @7       fn  : @281     0   : @282    
+@212    modify_expr      type: @10      op 0: @283     op 1: @284    
+@213    modify_expr      type: @10      op 0: @51      op 1: @96     
+@214    eq_expr          type: @10      op 0: @64      op 1: @282    
+@215    statement_list   0   : @285     1   : @286     2   : @287    
+                         3   : @288     4   : @289     5   : @290    
+@216    cond_expr        type: @7       op 0: @291     op 1: @292    
+                         op 2: @293    
+@217    identifier_node  strg: Name     lngt: 4       
+@218    field_decl       name: @294     type: @10      scpe: @41     
+                         srcp: c4.c:89                 chan: @295    
+                         size: @11      algn: 32       bpos: @296    
+@219    function_type    size: @6       algn: 8        retn: @10     
+                         prms: @297    
+@220    identifier_node  strg: printf   lngt: 6       
+@221    pointer_type     size: @23      algn: 64       ptd : @222    
+@222    integer_type     qual: c        name: @298     unql: @232    
+                         size: @6       algn: 8        prec: 8       
+                         sign: signed   min : @299     max : @300    
+@223    pointer_type     size: @23      algn: 64       ptd : @301    
+@224    string_cst       type: @301    strg: %d: unexpected token EOF of expression
+  lngt: 40      
+@225    function_type    qual:  v       unql: @3       size: @6      
+                         algn: 8        retn: @7       prms: @8      
+@226    identifier_node  strg: exit     lngt: 4       
+@227    identifier_node  strg: match    lngt: 5       
+@228    var_decl         name: @302     type: @63      srcp: c4.c:40     
+                         size: @23      algn: 64       used: 1       
+@229    integer_cst      type: @303     low : 4       
+@230    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@231    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@232    integer_type     name: @298     size: @6       algn: 8       
+                         prec: 8        sign: signed   min : @299    
+                         max : @300    
+@233    identifier_node  strg: data     lngt: 4       
+@234    bit_and_expr     type: @304     op 0: @305     op 1: @306    
+@235    addr_expr        type: @144     op 0: @145    
+@236    addr_expr        type: @144     op 0: @145    
+@237    integer_cst      type: @10      low : 40      
+@238    eq_expr          type: @10      op 0: @64      op 1: @307    
+@239    call_expr        type: @7       fn  : @308     0   : @307    
+@240    cond_expr        type: @7       op 0: @309     op 1: @310    
+@241    label_decl       type: @7       scpe: @1       srcp: c4.c:490    
+                         note: artificial 
+@242    label_decl       type: @7       scpe: @1       srcp: c4.c:490    
+                         note: artificial 
+@243    addr_expr        type: @144     op 0: @145    
+@244    integer_cst      type: @10      low : 159     
+@245    plus_expr        type: @10      op 0: @51      op 1: @162    
+@246    eq_expr          type: @10      op 0: @64      op 1: @244    
+@247    goto_expr        type: @7       labl: @242    
+@248    goto_expr        type: @7       labl: @249    
+@249    label_decl       type: @7       scpe: @1       srcp: c4.c:490    
+                         note: artificial 
+@250    addr_expr        type: @144     op 0: @145    
+@251    integer_cst      type: @10      low : 41      
+@252    indirect_ref     type: @10      op 0: @311    
+@253    indirect_ref     type: @10      op 0: @312    
+@254    cond_expr        type: @10      op 0: @313     op 1: @96     
+                         op 2: @194    
+@255    integer_cst      type: @10      low : 133     
+@256    call_expr        type: @7       fn  : @314     0   : @255    
+@257    modify_expr      type: @21      op 0: @12      op 1: @315    
+@258    cond_expr        type: @7       op 0: @316     op 1: @317    
+                         op 2: @318    
+@259    eq_expr          type: @10      op 0: @64      op 1: @237    
+@260    statement_list   0   : @319     1   : @320    
+@261    cond_expr        type: @7       op 0: @321     op 1: @322    
+                         op 2: @323    
+@262    indirect_ref     type: @10      op 0: @228    
+@263    integer_cst      type: @10      low : 10      
+@264    indirect_ref     type: @10      op 0: @228    
+@265    integer_cst      type: @10      low : 9       
+@266    addr_expr        type: @137     op 0: @138    
+@267    nop_expr         type: @139     op 0: @324    
+@268    addr_expr        type: @142     op 0: @143    
+@269    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@270    integer_cst      type: @10      low : 58      
+@271    addr_expr        type: @144     op 0: @145    
+@272    call_expr        type: @10      fn  : @325     0   : @326    
+                         1   : @91     
+@273    call_expr        type: @7       fn  : @327     0   : @93     
+@274    convert_expr     type: @328     op 0: @329    
+@275    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@276    convert_expr     type: @328     op 0: @330    
+@277    addr_expr        type: @144     op 0: @145    
+@278    indirect_ref     type: @10      op 0: @331    
+@279    integer_cst      type: @10      low : 5       
+@280    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@281    addr_expr        type: @144     op 0: @1      
+@282    integer_cst      type: @10      low : 145     
+@283    indirect_ref     type: @10      op 0: @43     
+@284    nop_expr         type: @10      op 0: @332    
+@285    call_expr        type: @7       fn  : @333     0   : @282    
+@286    modify_expr      type: @10      op 0: @334     op 1: @194    
+@287    modify_expr      type: @63      op 0: @43      op 1: @335    
+@288    call_expr        type: @7       fn  : @336     0   : @337    
+@289    modify_expr      type: @10      op 0: @338     op 1: @339    
+@290    modify_expr      type: @10      op 0: @51      op 1: @96     
+@291    eq_expr          type: @10      op 0: @64      op 1: @337    
+@292    statement_list   0   : @340     1   : @341     2   : @342    
+                         3   : @343     4   : @344    
+@293    cond_expr        type: @7       op 0: @345     op 1: @346    
+                         op 2: @347    
+@294    identifier_node  strg: Id_class lngt: 8       
+@295    field_decl       name: @348     type: @10      scpe: @41     
+                         srcp: c4.c:90                 chan: @349    
+                         size: @11      algn: 32       bpos: @350    
+@296    integer_cst      type: @14      low : 128     
+@297    tree_list        valu: @139    
+@298    type_decl        name: @351     type: @232     srcp: <built-in>:0      
+@299    integer_cst      type: @232     high: -1       low : -128    
+@300    integer_cst      type: @232     low : 127     
+@301    array_type       size: @352     algn: 8        elts: @232    
+                         domn: @353    
+@302    identifier_node  strg: text     lngt: 4       
+@303    integer_type     name: @354     size: @23      algn: 64      
+                         prec: 64       sign: unsigned min : @355    
+                         max : @356    
+@304    integer_type     name: @354     size: @23      algn: 64      
+                         prec: 64       sign: unsigned min : @355    
+                         max : @357    
+@305    plus_expr        type: @304     op 0: @358     op 1: @359    
+@306    integer_cst      type: @304     low : -4      
+@307    integer_cst      type: @10      low : 138     
+@308    addr_expr        type: @144     op 0: @145    
+@309    eq_expr          type: @10      op 0: @64      op 1: @360    
+@310    statement_list   0   : @361     1   : @362    
+@311    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@312    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@313    eq_expr          type: @10      op 0: @51      op 1: @65     
+@314    addr_expr        type: @144     op 0: @145    
+@315    var_decl         name: @363     type: @21      srcp: c4.c:100    
+                         size: @23      algn: 64       used: 1       
+@316    eq_expr          type: @10      op 0: @64      op 1: @237    
+@317    statement_list   0   : @364     1   : @365     2   : @366    
+                         3   : @367     4   : @368     5   : @369    
+                         6   : @370     7   : @371     8   : @372    
+                         9   : @373     10  : @374     11  : @375    
+                         12  : @376     13  : @377     14  : @378    
+@318    cond_expr        type: @7       op 0: @379     op 1: @380    
+                         op 2: @381    
+@319    call_expr        type: @7       fn  : @382     0   : @237    
+@320    cond_expr        type: @7       op 0: @383     op 1: @384    
+                         op 2: @385    
+@321    eq_expr          type: @10      op 0: @64      op 1: @244    
+@322    statement_list   0   : @386     1   : @387     2   : @388    
+                         3   : @389    
+@323    cond_expr        type: @7       op 0: @390     op 1: @391    
+                         op 2: @392    
+@324    addr_expr        type: @393     op 0: @394    
+@325    addr_expr        type: @137     op 0: @138    
+@326    nop_expr         type: @139     op 0: @395    
+@327    addr_expr        type: @142     op 0: @143    
+@328    integer_type     name: @396     size: @23      algn: 64      
+                         prec: 64       sign: signed   min : @397    
+                         max : @398    
+@329    pointer_plus_expr type: @63      op 0: @228     op 1: @399    
+@330    pointer_plus_expr type: @63      op 0: @228     op 1: @229    
+@331    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@332    convert_expr     type: @328     op 0: @400    
+@333    addr_expr        type: @144     op 0: @145    
+@334    indirect_ref     type: @10      op 0: @401    
+@335    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@336    addr_expr        type: @144     op 0: @1      
+@337    integer_cst      type: @10      low : 146     
+@338    indirect_ref     type: @10      op 0: @43     
+@339    nop_expr         type: @10      op 0: @402    
+@340    call_expr        type: @7       fn  : @403     0   : @337    
+@341    modify_expr      type: @10      op 0: @404     op 1: @185    
+@342    call_expr        type: @7       fn  : @405     0   : @406    
+@343    modify_expr      type: @10      op 0: @407     op 1: @408    
+@344    modify_expr      type: @10      op 0: @51      op 1: @96     
+@345    eq_expr          type: @10      op 0: @64      op 1: @406    
+@346    statement_list   0   : @409     1   : @410     2   : @411    
+                         3   : @412     4   : @413    
+@347    cond_expr        type: @7       op 0: @414     op 1: @415    
+                         op 2: @416    
+@348    identifier_node  strg: Type     lngt: 4       
+@349    field_decl       name: @417     type: @10      scpe: @41     
+                         srcp: c4.c:91                 chan: @418    
+                         size: @11      algn: 32       bpos: @419    
+@350    integer_cst      type: @14      low : 160     
+@351    identifier_node  strg: char     lngt: 4       
+@352    integer_cst      type: @14      low : 320     
+@353    integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @421    
+@354    type_decl        name: @422     type: @304     srcp: <built-in>:0      
+@355    integer_cst      type: @304     low : 0       
+@356    integer_cst      type: @303     high: -1       low : -1      
+@357    integer_cst      type: @304     low : -1      
+@358    nop_expr         type: @304     op 0: @423    
+@359    integer_cst      type: @304     low : 4       
+@360    integer_cst      type: @10      low : 134     
+@361    call_expr        type: @7       fn  : @424     0   : @360    
+@362    modify_expr      type: @10      op 0: @51      op 1: @65     
+@363    identifier_node  strg: current_id              lngt: 10      
+@364    call_expr        type: @7       fn  : @425     0   : @237    
+@365    modify_expr      type: @10      op 0: @22      op 1: @65     
+@366    goto_expr        type: @7       labl: @426    
+@367    label_expr       type: @7       name: @427    
+@368    call_expr        type: @7       fn  : @428     0   : @77     
+@369    modify_expr      type: @10      op 0: @429     op 1: @185    
+@370    postincrement_expr type: @10      op 0: @22      op 1: @96     
+@371    cond_expr        type: @7       op 0: @430     op 1: @431    
+@372    label_expr       type: @7       name: @426    
+@373    cond_expr        type: @7       op 0: @432     op 1: @433    
+                         op 2: @434    
+@374    label_expr       type: @7       name: @435    
+@375    call_expr        type: @7       fn  : @436     0   : @251    
+@376    cond_expr        type: @7       op 0: @437     op 1: @438    
+                         op 2: @439    
+@377    cond_expr        type: @7       op 0: @440     op 1: @441    
+@378    modify_expr      type: @10      op 0: @51      op 1: @442    
+@379    eq_expr          type: @10      op 0: @443     op 1: @68     
+@380    statement_list   0   : @444     1   : @445     2   : @446    
+@381    statement_list   0   : @447     1   : @448     2   : @449    
+@382    addr_expr        type: @144     op 0: @145    
+@383    truth_orif_expr  type: @10      op 0: @450     op 1: @451    
+@384    statement_list   0   : @452     1   : @453     2   : @454    
+                         3   : @455     4   : @456     5   : @457    
+                         6   : @458     7   : @459     8   : @460    
+                         9   : @461     10  : @462     11  : @463    
+@385    statement_list   0   : @464     1   : @465    
+@386    call_expr        type: @7       fn  : @466     0   : @244    
+@387    call_expr        type: @7       fn  : @467     0   : @468    
+@388    cond_expr        type: @7       op 0: @469     op 1: @470    
+                         op 2: @471    
+@389    modify_expr      type: @10      op 0: @472     op 1: @473    
+@390    eq_expr          type: @10      op 0: @64      op 1: @474    
+@391    statement_list   0   : @475     1   : @476     2   : @477    
+                         3   : @478    
+@392    cond_expr        type: @7       op 0: @479     op 1: @480    
+                         op 2: @481    
+@393    pointer_type     size: @23      algn: 64       ptd : @482    
+@394    string_cst       type: @482    strg: %d: bad lvalue in assignment
+  lngt: 30      
+@395    addr_expr        type: @483     op 0: @484    
+@396    type_decl        name: @485     type: @328     srcp: <built-in>:0      
+@397    integer_cst      type: @328     high: -1       low : 0       
+@398    integer_cst      type: @328     low : -1      
+@399    integer_cst      type: @303     low : 12      
+@400    pointer_plus_expr type: @63      op 0: @228     op 1: @229    
+@401    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@402    convert_expr     type: @328     op 0: @486    
+@403    addr_expr        type: @144     op 0: @145    
+@404    indirect_ref     type: @10      op 0: @487    
+@405    addr_expr        type: @144     op 0: @1      
+@406    integer_cst      type: @10      low : 147     
+@407    indirect_ref     type: @10      op 0: @488    
+@408    integer_cst      type: @10      low : 14      
+@409    call_expr        type: @7       fn  : @489     0   : @406    
+@410    modify_expr      type: @10      op 0: @490     op 1: @185    
+@411    call_expr        type: @7       fn  : @491     0   : @474    
+@412    modify_expr      type: @10      op 0: @492     op 1: @493    
+@413    modify_expr      type: @10      op 0: @51      op 1: @96     
+@414    eq_expr          type: @10      op 0: @64      op 1: @474    
+@415    statement_list   0   : @494     1   : @495     2   : @496    
+                         3   : @497     4   : @498    
+@416    cond_expr        type: @7       op 0: @499     op 1: @500    
+                         op 2: @501    
+@417    identifier_node  strg: Value    lngt: 5       
+@418    field_decl       name: @502     type: @10      scpe: @41     
+                         srcp: c4.c:92                 chan: @503    
+                         size: @11      algn: 32       bpos: @504    
+@419    integer_cst      type: @14      low : 192     
+@420    integer_cst      type: @303     low : 0       
+@421    integer_cst      type: @303     low : 39      
+@422    identifier_node  strg: long unsigned int       lngt: 17      
+@423    nop_expr         type: @10      op 0: @505    
+@424    addr_expr        type: @144     op 0: @145    
+@425    addr_expr        type: @144     op 0: @145    
+@426    label_decl       type: @7       scpe: @1       srcp: c4.c:525    
+                         note: artificial 
+@427    label_decl       type: @7       scpe: @1       srcp: c4.c:525    
+                         note: artificial 
+@428    addr_expr        type: @144     op 0: @1      
+@429    indirect_ref     type: @10      op 0: @506    
+@430    eq_expr          type: @10      op 0: @64      op 1: @507    
+@431    call_expr        type: @7       fn  : @508     0   : @507    
+@432    ne_expr          type: @10      op 0: @64      op 1: @251    
+@433    goto_expr        type: @7       labl: @427    
+@434    goto_expr        type: @7       labl: @435    
+@435    label_decl       type: @7       scpe: @1       srcp: c4.c:525    
+                         note: artificial 
+@436    addr_expr        type: @144     op 0: @145    
+@437    eq_expr          type: @10      op 0: @509     op 1: @510    
+@438    modify_expr      type: @10      op 0: @511     op 1: @512    
+@439    cond_expr        type: @7       op 0: @513     op 1: @514    
+                         op 2: @515    
+@440    gt_expr          type: @10      op 0: @22      op 1: @65     
+@441    statement_list   0   : @516     1   : @517    
+@442    component_ref    type: @10      op 0: @518     op 1: @295    
+@443    component_ref    type: @10      op 0: @519     op 1: @218    
+@444    modify_expr      type: @10      op 0: @520     op 1: @96     
+@445    modify_expr      type: @10      op 0: @521     op 1: @522    
+@446    modify_expr      type: @10      op 0: @51      op 1: @96     
+@447    cond_expr        type: @7       op 0: @523     op 1: @524    
+                         op 2: @525    
+@448    modify_expr      type: @10      op 0: @51      op 1: @526    
+@449    modify_expr      type: @10      op 0: @527     op 1: @528    
+@450    eq_expr          type: @10      op 0: @64      op 1: @307    
+@451    eq_expr          type: @10      op 0: @64      op 1: @360    
+@452    modify_expr      type: @10      op 0: @22      op 1: @529    
+@453    call_expr        type: @7       fn  : @530     0   : @64     
+@454    goto_expr        type: @7       labl: @531    
+@455    label_expr       type: @7       name: @532    
+@456    call_expr        type: @7       fn  : @533     0   : @244    
+@457    modify_expr      type: @10      op 0: @22      op 1: @534    
+@458    label_expr       type: @7       name: @531    
+@459    cond_expr        type: @7       op 0: @535     op 1: @536    
+                         op 2: @537    
+@460    label_expr       type: @7       name: @538    
+@461    call_expr        type: @7       fn  : @539     0   : @251    
+@462    call_expr        type: @7       fn  : @540     0   : @468    
+@463    modify_expr      type: @10      op 0: @51      op 1: @22     
+@464    call_expr        type: @7       fn  : @541     0   : @77     
+@465    call_expr        type: @7       fn  : @542     0   : @251    
+@466    addr_expr        type: @144     op 0: @145    
+@467    addr_expr        type: @144     op 0: @1      
+@468    integer_cst      type: @10      low : 162     
+@469    gt_expr          type: @10      op 0: @51      op 1: @96     
+@470    modify_expr      type: @10      op 0: @51      op 1: @543    
+@471    statement_list   0   : @544     1   : @545    
+@472    indirect_ref     type: @10      op 0: @546    
+@473    cond_expr        type: @10      op 0: @547     op 1: @263    
+                         op 2: @265    
+@474    integer_cst      type: @10      low : 148     
+@475    call_expr        type: @7       fn  : @548     0   : @474    
+@476    call_expr        type: @7       fn  : @549     0   : @468    
+@477    cond_expr        type: @7       op 0: @550     op 1: @551    
+                         op 2: @552    
+@478    modify_expr      type: @10      op 0: @51      op 1: @553    
+@479    eq_expr          type: @10      op 0: @64      op 1: @554    
+@480    statement_list   0   : @555     1   : @556     2   : @557    
+                         3   : @558     4   : @559     5   : @560    
+                         6   : @561    
+@481    cond_expr        type: @7       op 0: @562     op 1: @563    
+                         op 2: @564    
+@482    array_type       size: @565     algn: 8        elts: @232    
+                         domn: @566    
+@483    pointer_type     size: @23      algn: 64       ptd : @567    
+@484    string_cst       type: @567    strg: %d: missing colon in conditional
+  lngt: 34      
+@485    identifier_node  strg: long int lngt: 8       
+@486    pointer_plus_expr type: @63      op 0: @228     op 1: @229    
+@487    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@488    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@489    addr_expr        type: @144     op 0: @145    
+@490    indirect_ref     type: @10      op 0: @568    
+@491    addr_expr        type: @144     op 0: @1      
+@492    indirect_ref     type: @10      op 0: @569    
+@493    integer_cst      type: @10      low : 15      
+@494    call_expr        type: @7       fn  : @570     0   : @474    
+@495    modify_expr      type: @10      op 0: @571     op 1: @185    
+@496    call_expr        type: @7       fn  : @572     0   : @573    
+@497    modify_expr      type: @10      op 0: @574     op 1: @575    
+@498    modify_expr      type: @10      op 0: @51      op 1: @96     
+@499    eq_expr          type: @10      op 0: @64      op 1: @573    
+@500    statement_list   0   : @576     1   : @577     2   : @578    
+                         3   : @579     4   : @580    
+@501    cond_expr        type: @7       op 0: @581     op 1: @582    
+                         op 2: @583    
+@502    identifier_node  strg: Bclass   lngt: 6       
+@503    field_decl       name: @584     type: @10      scpe: @41     
+                         srcp: c4.c:93                 chan: @585    
+                         size: @11      algn: 32       bpos: @586    
+@504    integer_cst      type: @14      low : 224     
+@505    convert_expr     type: @328     op 0: @160    
+@506    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@507    integer_cst      type: @10      low : 44      
+@508    addr_expr        type: @144     op 0: @145    
+@509    component_ref    type: @10      op 0: @587     op 1: @218    
+@510    integer_cst      type: @10      low : 130     
+@511    indirect_ref     type: @10      op 0: @588    
+@512    component_ref    type: @10      op 0: @589     op 1: @349    
+@513    eq_expr          type: @10      op 0: @590     op 1: @591    
+@514    statement_list   0   : @592     1   : @593    
+@515    statement_list   0   : @594     1   : @595    
+@516    modify_expr      type: @10      op 0: @596     op 1: @597    
+@517    modify_expr      type: @10      op 0: @598     op 1: @22     
+@518    indirect_ref     type: @41      op 0: @12     
+@519    indirect_ref     type: @41      op 0: @12     
+@520    indirect_ref     type: @10      op 0: @599    
+@521    indirect_ref     type: @10      op 0: @600    
+@522    component_ref    type: @10      op 0: @601     op 1: @349    
+@523    eq_expr          type: @10      op 0: @602     op 1: @603    
+@524    statement_list   0   : @604     1   : @605    
+@525    cond_expr        type: @7       op 0: @606     op 1: @607    
+                         op 2: @608    
+@526    component_ref    type: @10      op 0: @609     op 1: @295    
+@527    indirect_ref     type: @10      op 0: @610    
+@528    cond_expr        type: @10      op 0: @611     op 1: @263    
+                         op 2: @265    
+@529    ne_expr          type: @10      op 0: @64      op 1: @360    
+@530    addr_expr        type: @144     op 0: @145    
+@531    label_decl       type: @7       scpe: @1       srcp: c4.c:586    
+                         note: artificial 
+@532    label_decl       type: @7       scpe: @1       srcp: c4.c:586    
+                         note: artificial 
+@533    addr_expr        type: @144     op 0: @145    
+@534    plus_expr        type: @10      op 0: @22      op 1: @162    
+@535    eq_expr          type: @10      op 0: @64      op 1: @244    
+@536    goto_expr        type: @7       labl: @532    
+@537    goto_expr        type: @7       labl: @538    
+@538    label_decl       type: @7       scpe: @1       srcp: c4.c:586    
+                         note: artificial 
+@539    addr_expr        type: @144     op 0: @145    
+@540    addr_expr        type: @144     op 0: @1      
+@541    addr_expr        type: @144     op 0: @1      
+@542    addr_expr        type: @144     op 0: @145    
+@543    plus_expr        type: @10      op 0: @51      op 1: @612    
+@544    call_expr        type: @10      fn  : @613     0   : @614    
+                         1   : @91     
+@545    call_expr        type: @7       fn  : @615     0   : @93     
+@546    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@547    eq_expr          type: @10      op 0: @51      op 1: @65     
+@548    addr_expr        type: @144     op 0: @145    
+@549    addr_expr        type: @144     op 0: @1      
+@550    truth_orif_expr  type: @10      op 0: @616     op 1: @617    
+@551    postdecrement_expr type: @63      op 0: @228     op 1: @229    
+@552    statement_list   0   : @618     1   : @619    
+@553    plus_expr        type: @10      op 0: @51      op 1: @162    
+@554    integer_cst      type: @10      low : 33      
+@555    call_expr        type: @7       fn  : @620     0   : @554    
+@556    call_expr        type: @7       fn  : @621     0   : @468    
+@557    modify_expr      type: @10      op 0: @622     op 1: @185    
+@558    modify_expr      type: @10      op 0: @623     op 1: @96     
+@559    modify_expr      type: @10      op 0: @624     op 1: @65     
+@560    modify_expr      type: @10      op 0: @625     op 1: @626    
+@561    modify_expr      type: @10      op 0: @51      op 1: @96     
+@562    eq_expr          type: @10      op 0: @64      op 1: @627    
+@563    statement_list   0   : @628     1   : @629     2   : @630    
+                         3   : @631     4   : @632     5   : @633    
+                         6   : @634    
+@564    cond_expr        type: @7       op 0: @635     op 1: @636    
+                         op 2: @637    
+@565    integer_cst      type: @14      low : 240     
+@566    integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @638    
+@567    array_type       size: @639     algn: 8        elts: @232    
+                         domn: @640    
+@568    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@569    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@570    addr_expr        type: @144     op 0: @145    
+@571    indirect_ref     type: @10      op 0: @641    
+@572    addr_expr        type: @144     op 0: @1      
+@573    integer_cst      type: @10      low : 149     
+@574    indirect_ref     type: @10      op 0: @642    
+@575    integer_cst      type: @10      low : 16      
+@576    call_expr        type: @7       fn  : @643     0   : @573    
+@577    modify_expr      type: @10      op 0: @644     op 1: @185    
+@578    call_expr        type: @7       fn  : @645     0   : @646    
+@579    modify_expr      type: @10      op 0: @647     op 1: @626    
+@580    modify_expr      type: @10      op 0: @51      op 1: @96     
+@581    eq_expr          type: @10      op 0: @64      op 1: @646    
+@582    statement_list   0   : @648     1   : @649     2   : @650    
+                         3   : @651     4   : @652    
+@583    cond_expr        type: @7       op 0: @653     op 1: @654    
+                         op 2: @655    
+@584    identifier_node  strg: Btype    lngt: 5       
+@585    field_decl       name: @656     type: @10      scpe: @41     
+                         srcp: c4.c:94                 chan: @657    
+                         size: @11      algn: 32       bpos: @658    
+@586    integer_cst      type: @14      low : 256     
+@587    indirect_ref     type: @41      op 0: @12     
+@588    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@589    indirect_ref     type: @41      op 0: @12     
+@590    component_ref    type: @10      op 0: @659     op 1: @218    
+@591    integer_cst      type: @10      low : 129     
+@592    modify_expr      type: @10      op 0: @660     op 1: @661    
+@593    modify_expr      type: @10      op 0: @662     op 1: @663    
+@594    call_expr        type: @10      fn  : @664     0   : @665    
+                         1   : @91     
+@595    call_expr        type: @7       fn  : @666     0   : @93     
+@596    indirect_ref     type: @10      op 0: @667    
+@597    integer_cst      type: @10      low : 7       
+@598    indirect_ref     type: @10      op 0: @668    
+@599    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@600    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@601    indirect_ref     type: @41      op 0: @12     
+@602    component_ref    type: @10      op 0: @669     op 1: @218    
+@603    integer_cst      type: @10      low : 132     
+@604    modify_expr      type: @10      op 0: @670     op 1: @65     
+@605    modify_expr      type: @10      op 0: @671     op 1: @672    
+@606    eq_expr          type: @10      op 0: @673     op 1: @674    
+@607    statement_list   0   : @675     1   : @676    
+@608    statement_list   0   : @677     1   : @678    
+@609    indirect_ref     type: @41      op 0: @12     
+@610    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@611    eq_expr          type: @10      op 0: @51      op 1: @65     
+@612    integer_cst      type: @10      high: -1       low : -2      
+@613    addr_expr        type: @137     op 0: @138    
+@614    nop_expr         type: @139     op 0: @679    
+@615    addr_expr        type: @142     op 0: @143    
+@616    eq_expr          type: @10      op 0: @680     op 1: @263    
+@617    eq_expr          type: @10      op 0: @681     op 1: @265    
+@618    call_expr        type: @10      fn  : @682     0   : @683    
+                         1   : @91     
+@619    call_expr        type: @7       fn  : @684     0   : @93     
+@620    addr_expr        type: @144     op 0: @145    
+@621    addr_expr        type: @144     op 0: @1      
+@622    indirect_ref     type: @10      op 0: @685    
+@623    indirect_ref     type: @10      op 0: @686    
+@624    indirect_ref     type: @10      op 0: @687    
+@625    indirect_ref     type: @10      op 0: @688    
+@626    integer_cst      type: @10      low : 17      
+@627    integer_cst      type: @10      low : 126     
+@628    call_expr        type: @7       fn  : @689     0   : @627    
+@629    call_expr        type: @7       fn  : @690     0   : @468    
+@630    modify_expr      type: @10      op 0: @691     op 1: @185    
+@631    modify_expr      type: @10      op 0: @692     op 1: @96     
+@632    modify_expr      type: @10      op 0: @693     op 1: @93     
+@633    modify_expr      type: @10      op 0: @694     op 1: @493    
+@634    modify_expr      type: @10      op 0: @51      op 1: @96     
+@635    eq_expr          type: @10      op 0: @64      op 1: @695    
+@636    statement_list   0   : @696     1   : @697     2   : @698    
+@637    cond_expr        type: @7       op 0: @699     op 1: @700    
+                         op 2: @701    
+@638    integer_cst      type: @303     low : 29      
+@639    integer_cst      type: @14      low : 272     
+@640    integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @702    
+@641    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@642    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@643    addr_expr        type: @144     op 0: @145    
+@644    indirect_ref     type: @10      op 0: @703    
+@645    addr_expr        type: @144     op 0: @1      
+@646    integer_cst      type: @10      low : 150     
+@647    indirect_ref     type: @10      op 0: @704    
+@648    call_expr        type: @7       fn  : @705     0   : @646    
+@649    modify_expr      type: @10      op 0: @706     op 1: @185    
+@650    call_expr        type: @7       fn  : @707     0   : @708    
+@651    modify_expr      type: @10      op 0: @709     op 1: @710    
+@652    modify_expr      type: @10      op 0: @51      op 1: @96     
+@653    eq_expr          type: @10      op 0: @64      op 1: @708    
+@654    statement_list   0   : @711     1   : @712     2   : @713    
+                         3   : @714     4   : @715    
+@655    cond_expr        type: @7       op 0: @716     op 1: @717    
+                         op 2: @718    
+@656    identifier_node  strg: Bvalue   lngt: 6       
+@657    field_decl       name: @719     type: @10      scpe: @41     
+                         srcp: c4.c:95                 chan: @720    
+                         size: @11      algn: 32       bpos: @352    
+@658    integer_cst      type: @14      low : 288     
+@659    indirect_ref     type: @41      op 0: @12     
+@660    indirect_ref     type: @10      op 0: @721    
+@661    integer_cst      type: @10      low : 3       
+@662    indirect_ref     type: @10      op 0: @722    
+@663    component_ref    type: @10      op 0: @723     op 1: @349    
+@664    addr_expr        type: @137     op 0: @138    
+@665    nop_expr         type: @139     op 0: @724    
+@666    addr_expr        type: @142     op 0: @143    
+@667    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@668    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@669    indirect_ref     type: @41      op 0: @12     
+@670    indirect_ref     type: @10      op 0: @725    
+@671    indirect_ref     type: @10      op 0: @726    
+@672    minus_expr       type: @10      op 0: @727     op 1: @728    
+@673    component_ref    type: @10      op 0: @729     op 1: @218    
+@674    integer_cst      type: @10      low : 131     
+@675    modify_expr      type: @10      op 0: @730     op 1: @96     
+@676    modify_expr      type: @10      op 0: @731     op 1: @732    
+@677    call_expr        type: @10      fn  : @733     0   : @734    
+                         1   : @91     
+@678    call_expr        type: @7       fn  : @735     0   : @93     
+@679    addr_expr        type: @736     op 0: @737    
+@680    indirect_ref     type: @10      op 0: @228    
+@681    indirect_ref     type: @10      op 0: @228    
+@682    addr_expr        type: @137     op 0: @138    
+@683    nop_expr         type: @139     op 0: @738    
+@684    addr_expr        type: @142     op 0: @143    
+@685    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@686    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@687    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@688    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@689    addr_expr        type: @144     op 0: @145    
+@690    addr_expr        type: @144     op 0: @1      
+@691    indirect_ref     type: @10      op 0: @739    
+@692    indirect_ref     type: @10      op 0: @740    
+@693    indirect_ref     type: @10      op 0: @741    
+@694    indirect_ref     type: @10      op 0: @742    
+@695    integer_cst      type: @10      low : 157     
+@696    call_expr        type: @7       fn  : @743     0   : @695    
+@697    call_expr        type: @7       fn  : @744     0   : @468    
+@698    modify_expr      type: @10      op 0: @51      op 1: @96     
+@699    eq_expr          type: @10      op 0: @64      op 1: @745    
+@700    statement_list   0   : @746     1   : @747     2   : @748    
+@701    cond_expr        type: @7       op 0: @749     op 1: @750    
+                         op 2: @751    
+@702    integer_cst      type: @303     low : 33      
+@703    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@704    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@705    addr_expr        type: @144     op 0: @145    
+@706    indirect_ref     type: @10      op 0: @752    
+@707    addr_expr        type: @144     op 0: @1      
+@708    integer_cst      type: @10      low : 151     
+@709    indirect_ref     type: @10      op 0: @753    
+@710    integer_cst      type: @10      low : 18      
+@711    call_expr        type: @7       fn  : @754     0   : @708    
+@712    modify_expr      type: @10      op 0: @755     op 1: @185    
+@713    call_expr        type: @7       fn  : @756     0   : @757    
+@714    modify_expr      type: @10      op 0: @758     op 1: @759    
+@715    modify_expr      type: @10      op 0: @51      op 1: @96     
+@716    eq_expr          type: @10      op 0: @64      op 1: @760    
+@717    statement_list   0   : @761     1   : @762     2   : @763    
+                         3   : @764     4   : @765    
+@718    cond_expr        type: @7       op 0: @766     op 1: @767    
+                         op 2: @768    
+@719    identifier_node  strg: char_number             lngt: 11      
+@720    field_decl       name: @769     type: @21      scpe: @41     
+                         srcp: c4.c:96                 size: @23     
+                         algn: 64       bpos: @770    
+@721    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@722    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@723    indirect_ref     type: @41      op 0: @12     
+@724    addr_expr        type: @771     op 0: @772    
+@725    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@726    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@727    var_decl         name: @773     type: @10      srcp: c4.c:115    
+                         size: @11      algn: 32       used: 1       
+@728    component_ref    type: @10      op 0: @774     op 1: @349    
+@729    indirect_ref     type: @41      op 0: @12     
+@730    indirect_ref     type: @10      op 0: @775    
+@731    indirect_ref     type: @10      op 0: @776    
+@732    component_ref    type: @10      op 0: @777     op 1: @349    
+@733    addr_expr        type: @137     op 0: @138    
+@734    nop_expr         type: @139     op 0: @778    
+@735    addr_expr        type: @142     op 0: @143    
+@736    pointer_type     size: @23      algn: 64       ptd : @779    
+@737    string_cst       type: @779    strg: %d: bad dereference
+  lngt: 21      
+@738    addr_expr        type: @780     op 0: @781    
+@739    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@740    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@741    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@742    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@743    addr_expr        type: @144     op 0: @145    
+@744    addr_expr        type: @144     op 0: @1      
+@745    integer_cst      type: @10      low : 158     
+@746    call_expr        type: @7       fn  : @782     0   : @745    
+@747    cond_expr        type: @7       op 0: @783     op 1: @784    
+                         op 2: @785    
+@748    modify_expr      type: @10      op 0: @51      op 1: @96     
+@749    truth_orif_expr  type: @10      op 0: @786     op 1: @787    
+@750    statement_list   0   : @788     1   : @789     2   : @790    
+                         3   : @791     4   : @792     5   : @793    
+                         6   : @794     7   : @795     8   : @796    
+@751    statement_list   0   : @797     1   : @798    
+@752    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@753    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@754    addr_expr        type: @144     op 0: @145    
+@755    indirect_ref     type: @10      op 0: @799    
+@756    addr_expr        type: @144     op 0: @1      
+@757    integer_cst      type: @10      low : 155     
+@758    indirect_ref     type: @10      op 0: @800    
+@759    integer_cst      type: @10      low : 19      
+@760    integer_cst      type: @10      low : 152     
+@761    call_expr        type: @7       fn  : @801     0   : @760    
+@762    modify_expr      type: @10      op 0: @802     op 1: @185    
+@763    call_expr        type: @7       fn  : @803     0   : @757    
+@764    modify_expr      type: @10      op 0: @804     op 1: @805    
+@765    modify_expr      type: @10      op 0: @51      op 1: @96     
+@766    eq_expr          type: @10      op 0: @64      op 1: @806    
+@767    statement_list   0   : @807     1   : @808     2   : @809    
+                         3   : @810     4   : @811    
+@768    cond_expr        type: @7       op 0: @812     op 1: @813    
+                         op 2: @814    
+@769    identifier_node  strg: Next     lngt: 4       
+@770    integer_cst      type: @14      low : 384     
+@771    pointer_type     size: @23      algn: 64       ptd : @815    
+@772    string_cst       type: @815    strg: %d: bad function call
+  lngt: 23      
+@773    identifier_node  strg: index_of_bp             lngt: 11      
+@774    indirect_ref     type: @41      op 0: @12     
+@775    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@776    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@777    indirect_ref     type: @41      op 0: @12     
+@778    addr_expr        type: @816     op 0: @817    
+@779    array_type       size: @818     algn: 8        elts: @232    
+                         domn: @819    
+@780    pointer_type     size: @23      algn: 64       ptd : @820    
+@781    string_cst       type: @820    strg: %d: bad address of
+  lngt: 20      
+@782    addr_expr        type: @144     op 0: @145    
+@783    eq_expr          type: @10      op 0: @64      op 1: @68     
+@784    statement_list   0   : @821     1   : @822     2   : @823    
+@785    statement_list   0   : @824     1   : @825     2   : @826    
+                         3   : @827     4   : @828    
+@786    eq_expr          type: @10      op 0: @64      op 1: @468    
+@787    eq_expr          type: @10      op 0: @64      op 1: @829    
+@788    modify_expr      type: @10      op 0: @22      op 1: @64     
+@789    call_expr        type: @7       fn  : @830     0   : @64     
+@790    call_expr        type: @7       fn  : @831     0   : @468    
+@791    cond_expr        type: @7       op 0: @832     op 1: @833    
+                         op 2: @834    
+@792    modify_expr      type: @10      op 0: @835     op 1: @185    
+@793    modify_expr      type: @10      op 0: @836     op 1: @96     
+@794    modify_expr      type: @10      op 0: @837     op 1: @838    
+@795    modify_expr      type: @10      op 0: @839     op 1: @840    
+@796    modify_expr      type: @10      op 0: @841     op 1: @842    
+@797    call_expr        type: @10      fn  : @843     0   : @844    
+                         1   : @91     
+@798    call_expr        type: @7       fn  : @845     0   : @93     
+@799    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@800    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@801    addr_expr        type: @144     op 0: @145    
+@802    indirect_ref     type: @10      op 0: @846    
+@803    addr_expr        type: @144     op 0: @1      
+@804    indirect_ref     type: @10      op 0: @847    
+@805    integer_cst      type: @10      low : 20      
+@806    integer_cst      type: @10      low : 153     
+@807    call_expr        type: @7       fn  : @848     0   : @806    
+@808    modify_expr      type: @10      op 0: @849     op 1: @185    
+@809    call_expr        type: @7       fn  : @850     0   : @757    
+@810    modify_expr      type: @10      op 0: @851     op 1: @852    
+@811    modify_expr      type: @10      op 0: @51      op 1: @96     
+@812    eq_expr          type: @10      op 0: @64      op 1: @853    
+@813    statement_list   0   : @854     1   : @855     2   : @856    
+                         3   : @857     4   : @858    
+@814    cond_expr        type: @7       op 0: @859     op 1: @860    
+                         op 2: @861    
+@815    array_type       size: @862     algn: 8        elts: @232    
+                         domn: @863    
+@816    pointer_type     size: @23      algn: 64       ptd : @864    
+@817    string_cst       type: @864    strg: %d: undefined variable
+  lngt: 24      
+@818    integer_cst      type: @14      low : 168     
+@819    integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @865    
+@820    array_type       size: @350     algn: 8        elts: @232    
+                         domn: @866    
+@821    modify_expr      type: @10      op 0: @867     op 1: @96     
+@822    modify_expr      type: @10      op 0: @868     op 1: @869    
+@823    call_expr        type: @7       fn  : @870     0   : @68     
+@824    modify_expr      type: @10      op 0: @871     op 1: @96     
+@825    modify_expr      type: @10      op 0: @872     op 1: @93     
+@826    modify_expr      type: @10      op 0: @873     op 1: @185    
+@827    call_expr        type: @7       fn  : @874     0   : @468    
+@828    modify_expr      type: @10      op 0: @875     op 1: @876    
+@829    integer_cst      type: @10      low : 163     
+@830    addr_expr        type: @144     op 0: @145    
+@831    addr_expr        type: @144     op 0: @1      
+@832    eq_expr          type: @10      op 0: @877     op 1: @263    
+@833    statement_list   0   : @878     1   : @879    
+@834    cond_expr        type: @7       op 0: @880     op 1: @881    
+                         op 2: @882    
+@835    indirect_ref     type: @10      op 0: @883    
+@836    indirect_ref     type: @10      op 0: @884    
+@837    indirect_ref     type: @10      op 0: @885    
+@838    cond_expr        type: @10      op 0: @886     op 1: @194    
+                         op 2: @96     
+@839    indirect_ref     type: @10      op 0: @887    
+@840    cond_expr        type: @10      op 0: @888     op 1: @889    
+                         op 2: @890    
+@841    indirect_ref     type: @10      op 0: @891    
+@842    cond_expr        type: @10      op 0: @892     op 1: @190    
+                         op 2: @191    
+@843    addr_expr        type: @137     op 0: @138    
+@844    nop_expr         type: @139     op 0: @893    
+@845    addr_expr        type: @142     op 0: @143    
+@846    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@847    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@848    addr_expr        type: @144     op 0: @145    
+@849    indirect_ref     type: @10      op 0: @894    
+@850    addr_expr        type: @144     op 0: @1      
+@851    indirect_ref     type: @10      op 0: @895    
+@852    integer_cst      type: @10      low : 21      
+@853    integer_cst      type: @10      low : 154     
+@854    call_expr        type: @7       fn  : @896     0   : @853    
+@855    modify_expr      type: @10      op 0: @897     op 1: @185    
+@856    call_expr        type: @7       fn  : @898     0   : @757    
+@857    modify_expr      type: @10      op 0: @899     op 1: @900    
+@858    modify_expr      type: @10      op 0: @51      op 1: @96     
+@859    eq_expr          type: @10      op 0: @64      op 1: @757    
+@860    statement_list   0   : @901     1   : @902     2   : @903    
+                         3   : @904     4   : @905    
+@861    cond_expr        type: @7       op 0: @906     op 1: @907    
+                         op 2: @908    
+@862    integer_cst      type: @14      low : 184     
+@863    integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @909    
+@864    array_type       size: @419     algn: 8        elts: @232    
+                         domn: @910    
+@865    integer_cst      type: @303     low : 20      
+@866    integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @911    
+@867    indirect_ref     type: @10      op 0: @912    
+@868    indirect_ref     type: @10      op 0: @913    
+@869    negate_expr      type: @10      op 0: @98     
+@870    addr_expr        type: @144     op 0: @145    
+@871    indirect_ref     type: @10      op 0: @914    
+@872    indirect_ref     type: @10      op 0: @915    
+@873    indirect_ref     type: @10      op 0: @916    
+@874    addr_expr        type: @144     op 0: @1      
+@875    indirect_ref     type: @10      op 0: @917    
+@876    integer_cst      type: @10      low : 27      
+@877    indirect_ref     type: @10      op 0: @228    
+@878    modify_expr      type: @10      op 0: @918     op 1: @185    
+@879    modify_expr      type: @10      op 0: @919     op 1: @263    
+@880    eq_expr          type: @10      op 0: @920     op 1: @265    
+@881    statement_list   0   : @921     1   : @922    
+@882    statement_list   0   : @923     1   : @924    
+@883    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@884    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@885    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@886    gt_expr          type: @10      op 0: @51      op 1: @162    
+@887    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@888    eq_expr          type: @10      op 0: @22      op 1: @468    
+@889    integer_cst      type: @10      low : 25      
+@890    integer_cst      type: @10      low : 26      
+@891    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@892    eq_expr          type: @10      op 0: @51      op 1: @65     
+@893    addr_expr        type: @780     op 0: @925    
+@894    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@895    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@896    addr_expr        type: @144     op 0: @145    
+@897    indirect_ref     type: @10      op 0: @926    
+@898    addr_expr        type: @144     op 0: @1      
+@899    indirect_ref     type: @10      op 0: @927    
+@900    integer_cst      type: @10      low : 22      
+@901    call_expr        type: @7       fn  : @928     0   : @757    
+@902    modify_expr      type: @10      op 0: @929     op 1: @185    
+@903    call_expr        type: @7       fn  : @930     0   : @695    
+@904    modify_expr      type: @10      op 0: @931     op 1: @932    
+@905    modify_expr      type: @10      op 0: @51      op 1: @96     
+@906    eq_expr          type: @10      op 0: @64      op 1: @933    
+@907    statement_list   0   : @934     1   : @935     2   : @936    
+                         3   : @937     4   : @938    
+@908    cond_expr        type: @7       op 0: @939     op 1: @940    
+                         op 2: @941    
+@909    integer_cst      type: @303     low : 22      
+@910    integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @942    
+@911    integer_cst      type: @303     low : 19      
+@912    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@913    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@914    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@915    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@916    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@917    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@918    indirect_ref     type: @10      op 0: @228    
+@919    indirect_ref     type: @10      op 0: @943    
+@920    indirect_ref     type: @10      op 0: @228    
+@921    modify_expr      type: @10      op 0: @944     op 1: @185    
+@922    modify_expr      type: @10      op 0: @945     op 1: @265    
+@923    call_expr        type: @10      fn  : @946     0   : @947    
+                         1   : @91     
+@924    call_expr        type: @7       fn  : @948     0   : @93     
+@925    string_cst       type: @820    strg: %d: bad expression
+  lngt: 20      
+@926    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@927    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@928    addr_expr        type: @144     op 0: @145    
+@929    indirect_ref     type: @10      op 0: @949    
+@930    addr_expr        type: @144     op 0: @1      
+@931    indirect_ref     type: @10      op 0: @950    
+@932    integer_cst      type: @10      low : 23      
+@933    integer_cst      type: @10      low : 156     
+@934    call_expr        type: @7       fn  : @951     0   : @933    
+@935    modify_expr      type: @10      op 0: @952     op 1: @185    
+@936    call_expr        type: @7       fn  : @953     0   : @695    
+@937    modify_expr      type: @10      op 0: @954     op 1: @955    
+@938    modify_expr      type: @10      op 0: @51      op 1: @96     
+@939    eq_expr          type: @10      op 0: @64      op 1: @695    
+@940    statement_list   0   : @956     1   : @957     2   : @958    
+                         3   : @959     4   : @960     5   : @961    
+@941    cond_expr        type: @7       op 0: @962     op 1: @963    
+                         op 2: @964    
+@942    integer_cst      type: @303     low : 23      
+@943    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@944    indirect_ref     type: @10      op 0: @228    
+@945    indirect_ref     type: @10      op 0: @965    
+@946    addr_expr        type: @137     op 0: @138    
+@947    nop_expr         type: @139     op 0: @966    
+@948    addr_expr        type: @142     op 0: @143    
+@949    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@950    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@951    addr_expr        type: @144     op 0: @145    
+@952    indirect_ref     type: @10      op 0: @967    
+@953    addr_expr        type: @144     op 0: @1      
+@954    indirect_ref     type: @10      op 0: @968    
+@955    integer_cst      type: @10      low : 24      
+@956    call_expr        type: @7       fn  : @969     0   : @695    
+@957    modify_expr      type: @10      op 0: @970     op 1: @185    
+@958    call_expr        type: @7       fn  : @971     0   : @244    
+@959    modify_expr      type: @10      op 0: @51      op 1: @22     
+@960    cond_expr        type: @7       op 0: @972     op 1: @973    
+@961    modify_expr      type: @10      op 0: @974     op 1: @889    
+@962    eq_expr          type: @10      op 0: @64      op 1: @745    
+@963    statement_list   0   : @975     1   : @976     2   : @977    
+                         3   : @978    
+@964    cond_expr        type: @7       op 0: @979     op 1: @980    
+                         op 2: @981    
+@965    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@966    addr_expr        type: @982     op 0: @983    
+@967    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@968    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@969    addr_expr        type: @144     op 0: @145    
+@970    indirect_ref     type: @10      op 0: @984    
+@971    addr_expr        type: @144     op 0: @1      
+@972    gt_expr          type: @10      op 0: @51      op 1: @162    
+@973    statement_list   0   : @985     1   : @986     2   : @987    
+                         3   : @988    
+@974    indirect_ref     type: @10      op 0: @989    
+@975    call_expr        type: @7       fn  : @990     0   : @745    
+@976    modify_expr      type: @10      op 0: @991     op 1: @185    
+@977    call_expr        type: @7       fn  : @992     0   : @244    
+@978    cond_expr        type: @7       op 0: @993     op 1: @994    
+                         op 2: @995    
+@979    eq_expr          type: @10      op 0: @64      op 1: @244    
+@980    statement_list   0   : @996     1   : @997     2   : @998    
+                         3   : @999     4   : @1000   
+@981    cond_expr        type: @7       op 0: @1001    op 1: @1002   
+                         op 2: @1003   
+@982    pointer_type     size: @23      algn: 64       ptd : @1004   
+@983    string_cst       type: @1004   strg: %d: bad lvalue of pre-increment
+  lngt: 33      
+@984    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@985    modify_expr      type: @10      op 0: @1005    op 1: @185    
+@986    modify_expr      type: @10      op 0: @1006    op 1: @96     
+@987    modify_expr      type: @10      op 0: @1007    op 1: @194    
+@988    modify_expr      type: @10      op 0: @1008    op 1: @876    
+@989    preincrement_expr type: @63      op 0: @228     op 1: @229    
+@990    addr_expr        type: @144     op 0: @145    
+@991    indirect_ref     type: @10      op 0: @1009   
+@992    addr_expr        type: @144     op 0: @1      
+@993    truth_andif_expr type: @10      op 0: @1010    op 1: @1011   
+@994    statement_list   0   : @1012    1   : @1013    2   : @1014   
+                         3   : @1015    4   : @1016    5   : @1017   
+@995    cond_expr        type: @7       op 0: @1018    op 1: @1019   
+                         op 2: @1020   
+@996    call_expr        type: @7       fn  : @1021    0   : @244    
+@997    modify_expr      type: @10      op 0: @1022    op 1: @185    
+@998    call_expr        type: @7       fn  : @1023    0   : @468    
+@999    modify_expr      type: @10      op 0: @1024    op 1: @876    
+@1000   modify_expr      type: @10      op 0: @51      op 1: @22     
+@1001   eq_expr          type: @10      op 0: @64      op 1: @1025   
+@1002   statement_list   0   : @1026    1   : @1027    2   : @1028   
+                         3   : @1029    4   : @1030   
+@1003   cond_expr        type: @7       op 0: @1031    op 1: @1032   
+                         op 2: @1033   
+@1004   array_type       size: @1034    algn: 8        elts: @232    
+                         domn: @1035   
+@1005   indirect_ref     type: @10      op 0: @1036   
+@1006   indirect_ref     type: @10      op 0: @1037   
+@1007   indirect_ref     type: @10      op 0: @1038   
+@1008   indirect_ref     type: @10      op 0: @1039   
+@1009   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1010   gt_expr          type: @10      op 0: @22      op 1: @162    
+@1011   eq_expr          type: @10      op 0: @22      op 1: @51     
+@1012   modify_expr      type: @10      op 0: @1040    op 1: @890    
+@1013   modify_expr      type: @10      op 0: @1041    op 1: @185    
+@1014   modify_expr      type: @10      op 0: @1042    op 1: @96     
+@1015   modify_expr      type: @10      op 0: @1043    op 1: @194    
+@1016   modify_expr      type: @10      op 0: @1044    op 1: @1045   
+@1017   modify_expr      type: @10      op 0: @51      op 1: @96     
+@1018   gt_expr          type: @10      op 0: @22      op 1: @162    
+@1019   statement_list   0   : @1046    1   : @1047    2   : @1048   
+                         3   : @1049    4   : @1050    5   : @1051   
+@1020   statement_list   0   : @1052    1   : @1053   
+@1021   addr_expr        type: @144     op 0: @145    
+@1022   indirect_ref     type: @10      op 0: @1054   
+@1023   addr_expr        type: @144     op 0: @1      
+@1024   indirect_ref     type: @10      op 0: @1055   
+@1025   integer_cst      type: @10      low : 160     
+@1026   call_expr        type: @7       fn  : @1056    0   : @1025   
+@1027   modify_expr      type: @10      op 0: @1057    op 1: @185    
+@1028   call_expr        type: @7       fn  : @1058    0   : @468    
+@1029   modify_expr      type: @10      op 0: @1059    op 1: @1045   
+@1030   modify_expr      type: @10      op 0: @51      op 1: @22     
+@1031   eq_expr          type: @10      op 0: @64      op 1: @1060   
+@1032   statement_list   0   : @1061    1   : @1062    2   : @1063   
+                         3   : @1064    4   : @1065   
+@1033   cond_expr        type: @7       op 0: @1066    op 1: @1067   
+                         op 2: @1068   
+@1034   integer_cst      type: @14      low : 264     
+@1035   integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @1069   
+@1036   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1037   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1038   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1039   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1040   indirect_ref     type: @10      op 0: @1070   
+@1041   indirect_ref     type: @10      op 0: @1071   
+@1042   indirect_ref     type: @10      op 0: @1072   
+@1043   indirect_ref     type: @10      op 0: @1073   
+@1044   indirect_ref     type: @10      op 0: @1074   
+@1045   integer_cst      type: @10      low : 28      
+@1046   modify_expr      type: @10      op 0: @1075    op 1: @185    
+@1047   modify_expr      type: @10      op 0: @1076    op 1: @96     
+@1048   modify_expr      type: @10      op 0: @1077    op 1: @194    
+@1049   modify_expr      type: @10      op 0: @1078    op 1: @876    
+@1050   modify_expr      type: @10      op 0: @1079    op 1: @890    
+@1051   modify_expr      type: @10      op 0: @51      op 1: @22     
+@1052   modify_expr      type: @10      op 0: @1080    op 1: @890    
+@1053   modify_expr      type: @10      op 0: @51      op 1: @22     
+@1054   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1055   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1056   addr_expr        type: @144     op 0: @145    
+@1057   indirect_ref     type: @10      op 0: @1081   
+@1058   addr_expr        type: @144     op 0: @1      
+@1059   indirect_ref     type: @10      op 0: @1082   
+@1060   integer_cst      type: @10      low : 161     
+@1061   call_expr        type: @7       fn  : @1083    0   : @1060   
+@1062   modify_expr      type: @10      op 0: @1084    op 1: @185    
+@1063   call_expr        type: @7       fn  : @1085    0   : @468    
+@1064   modify_expr      type: @10      op 0: @1086    op 1: @1087   
+@1065   modify_expr      type: @10      op 0: @51      op 1: @22     
+@1066   truth_orif_expr  type: @10      op 0: @1088    op 1: @1089   
+@1067   statement_list   0   : @1090    1   : @1091    2   : @1092   
+                         3   : @1093    4   : @1094    5   : @1095   
+                         6   : @1096    7   : @1097    8   : @1098   
+                         9   : @1099    10  : @1100   
+@1068   cond_expr        type: @7       op 0: @1101    op 1: @1102   
+                         op 2: @1103   
+@1069   integer_cst      type: @303     low : 32      
+@1070   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1071   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1072   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1073   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1074   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1075   indirect_ref     type: @10      op 0: @1104   
+@1076   indirect_ref     type: @10      op 0: @1105   
+@1077   indirect_ref     type: @10      op 0: @1106   
+@1078   indirect_ref     type: @10      op 0: @1107   
+@1079   indirect_ref     type: @10      op 0: @1108   
+@1080   indirect_ref     type: @10      op 0: @1109   
+@1081   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1082   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1083   addr_expr        type: @144     op 0: @145    
+@1084   indirect_ref     type: @10      op 0: @1110   
+@1085   addr_expr        type: @144     op 0: @1      
+@1086   indirect_ref     type: @10      op 0: @1111   
+@1087   integer_cst      type: @10      low : 29      
+@1088   eq_expr          type: @10      op 0: @64      op 1: @468    
+@1089   eq_expr          type: @10      op 0: @64      op 1: @829    
+@1090   cond_expr        type: @7       op 0: @1112    op 1: @1113   
+                         op 2: @1114   
+@1091   modify_expr      type: @10      op 0: @1115    op 1: @185    
+@1092   modify_expr      type: @10      op 0: @1116    op 1: @96     
+@1093   modify_expr      type: @10      op 0: @1117    op 1: @1118   
+@1094   modify_expr      type: @10      op 0: @1119    op 1: @1120   
+@1095   modify_expr      type: @10      op 0: @1121    op 1: @1122   
+@1096   modify_expr      type: @10      op 0: @1123    op 1: @185    
+@1097   modify_expr      type: @10      op 0: @1124    op 1: @96     
+@1098   modify_expr      type: @10      op 0: @1125    op 1: @1126   
+@1099   modify_expr      type: @10      op 0: @1127    op 1: @1128   
+@1100   call_expr        type: @7       fn  : @1129    0   : @64     
+@1101   eq_expr          type: @10      op 0: @64      op 1: @1130   
+@1102   statement_list   0   : @1131    1   : @1132    2   : @1133   
+                         3   : @1134    4   : @1135    5   : @1136   
+                         6   : @1137    7   : @1138   
+@1103   statement_list   0   : @1139    1   : @1140   
+@1104   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1105   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1106   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1107   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1108   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1109   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1110   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1111   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1112   eq_expr          type: @10      op 0: @1141    op 1: @265    
+@1113   statement_list   0   : @1142    1   : @1143   
+@1114   cond_expr        type: @7       op 0: @1144    op 1: @1145   
+                         op 2: @1146   
+@1115   indirect_ref     type: @10      op 0: @1147   
+@1116   indirect_ref     type: @10      op 0: @1148   
+@1117   indirect_ref     type: @10      op 0: @1149   
+@1118   cond_expr        type: @10      op 0: @1150    op 1: @194    
+                         op 2: @96     
+@1119   indirect_ref     type: @10      op 0: @1151   
+@1120   cond_expr        type: @10      op 0: @1152    op 1: @889    
+                         op 2: @890    
+@1121   indirect_ref     type: @10      op 0: @1153   
+@1122   cond_expr        type: @10      op 0: @1154    op 1: @190    
+                         op 2: @191    
+@1123   indirect_ref     type: @10      op 0: @1155   
+@1124   indirect_ref     type: @10      op 0: @1156   
+@1125   indirect_ref     type: @10      op 0: @1157   
+@1126   cond_expr        type: @10      op 0: @1158    op 1: @194    
+                         op 2: @96     
+@1127   indirect_ref     type: @10      op 0: @1159   
+@1128   cond_expr        type: @10      op 0: @1160    op 1: @890    
+                         op 2: @889    
+@1129   addr_expr        type: @144     op 0: @145    
+@1130   integer_cst      type: @10      low : 164     
+@1131   call_expr        type: @7       fn  : @1161    0   : @1130   
+@1132   modify_expr      type: @10      op 0: @1162    op 1: @185    
+@1133   call_expr        type: @7       fn  : @1163    0   : @77     
+@1134   call_expr        type: @7       fn  : @1164    0   : @1165   
+@1135   cond_expr        type: @7       op 0: @1166    op 1: @1167   
+                         op 2: @1168   
+@1136   modify_expr      type: @10      op 0: @51      op 1: @1169   
+@1137   modify_expr      type: @10      op 0: @1170    op 1: @889    
+@1138   modify_expr      type: @10      op 0: @1171    op 1: @1172   
+@1139   call_expr        type: @10      fn  : @1173    0   : @1174   
+                         1   : @91      2   : @64     
+@1140   call_expr        type: @7       fn  : @1175    0   : @93     
+@1141   indirect_ref     type: @10      op 0: @228    
+@1142   modify_expr      type: @10      op 0: @1176    op 1: @185    
+@1143   modify_expr      type: @10      op 0: @1177    op 1: @265    
+@1144   eq_expr          type: @10      op 0: @1178    op 1: @263    
+@1145   statement_list   0   : @1179    1   : @1180   
+@1146   statement_list   0   : @1181    1   : @1182   
+@1147   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1148   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1149   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1150   gt_expr          type: @10      op 0: @51      op 1: @162    
+@1151   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1152   eq_expr          type: @10      op 0: @64      op 1: @468    
+@1153   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1154   eq_expr          type: @10      op 0: @51      op 1: @65     
+@1155   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1156   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1157   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1158   gt_expr          type: @10      op 0: @51      op 1: @162    
+@1159   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1160   eq_expr          type: @10      op 0: @64      op 1: @468    
+@1161   addr_expr        type: @144     op 0: @145    
+@1162   indirect_ref     type: @10      op 0: @1183   
+@1163   addr_expr        type: @144     op 0: @1      
+@1164   addr_expr        type: @144     op 0: @145    
+@1165   integer_cst      type: @10      low : 93      
+@1166   gt_expr          type: @10      op 0: @22      op 1: @162    
+@1167   statement_list   0   : @1184    1   : @1185    2   : @1186   
+                         3   : @1187   
+@1168   cond_expr        type: @7       op 0: @1188    op 1: @1189   
+@1169   plus_expr        type: @10      op 0: @22      op 1: @612    
+@1170   indirect_ref     type: @10      op 0: @1190   
+@1171   indirect_ref     type: @10      op 0: @1191   
+@1172   cond_expr        type: @10      op 0: @1192    op 1: @263    
+                         op 2: @265    
+@1173   addr_expr        type: @137     op 0: @138    
+@1174   nop_expr         type: @139     op 0: @1193   
+@1175   addr_expr        type: @142     op 0: @143    
+@1176   indirect_ref     type: @10      op 0: @228    
+@1177   indirect_ref     type: @10      op 0: @1194   
+@1178   indirect_ref     type: @10      op 0: @228    
+@1179   modify_expr      type: @10      op 0: @1195    op 1: @185    
+@1180   modify_expr      type: @10      op 0: @1196    op 1: @263    
+@1181   call_expr        type: @10      fn  : @1197    0   : @1198   
+                         1   : @91     
+@1182   call_expr        type: @7       fn  : @1199    0   : @93     
+@1183   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1184   modify_expr      type: @10      op 0: @1200    op 1: @185    
+@1185   modify_expr      type: @10      op 0: @1201    op 1: @96     
+@1186   modify_expr      type: @10      op 0: @1202    op 1: @194    
+@1187   modify_expr      type: @10      op 0: @1203    op 1: @876    
+@1188   le_expr          type: @10      op 0: @22      op 1: @96     
+@1189   statement_list   0   : @1204    1   : @1205   
+@1190   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1191   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1192   eq_expr          type: @10      op 0: @51      op 1: @65     
+@1193   addr_expr        type: @1206    op 0: @1207   
+@1194   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1195   indirect_ref     type: @10      op 0: @228    
+@1196   indirect_ref     type: @10      op 0: @1208   
+@1197   addr_expr        type: @137     op 0: @138    
+@1198   nop_expr         type: @139     op 0: @1209   
+@1199   addr_expr        type: @142     op 0: @143    
+@1200   indirect_ref     type: @10      op 0: @1210   
+@1201   indirect_ref     type: @10      op 0: @1211   
+@1202   indirect_ref     type: @10      op 0: @1212   
+@1203   indirect_ref     type: @10      op 0: @1213   
+@1204   call_expr        type: @10      fn  : @1214    0   : @1215   
+                         1   : @91     
+@1205   call_expr        type: @7       fn  : @1216    0   : @93     
+@1206   pointer_type     size: @23      algn: 64       ptd : @1217   
+@1207   string_cst       type: @1217   strg: %d: compiler error, token = %d
+  lngt: 32      
+@1208   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1209   addr_expr        type: @1218    op 0: @1219   
+@1210   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1211   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1212   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1213   preincrement_expr type: @63      op 0: @228     op 1: @229    
+@1214   addr_expr        type: @137     op 0: @138    
+@1215   nop_expr         type: @139     op 0: @1220   
+@1216   addr_expr        type: @142     op 0: @143    
+@1217   array_type       size: @586     algn: 8        elts: @232    
+                         domn: @1221   
+@1218   pointer_type     size: @23      algn: 64       ptd : @1222   
+@1219   string_cst       type: @1222   strg: %d: bad value in increment
+  lngt: 28      
+@1220   addr_expr        type: @1223    op 0: @1224   
+@1221   integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @1225   
+@1222   array_type       size: @504     algn: 8        elts: @232    
+                         domn: @1226   
+@1223   pointer_type     size: @23      algn: 64       ptd : @1227   
+@1224   string_cst       type: @1227   strg: %d: pointer type expected
+  lngt: 27      
+@1225   integer_cst      type: @303     low : 31      
+@1226   integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @1228   
+@1227   array_type       size: @1229    algn: 8        elts: @232    
+                         domn: @1230   
+@1228   integer_cst      type: @303     low : 27      
+@1229   integer_cst      type: @14      low : 216     
+@1230   integer_type     size: @23      algn: 64       prec: 64      
+                         sign: signed   min : @420     max : @1231   
+@1231   integer_cst      type: @303     low : 26      

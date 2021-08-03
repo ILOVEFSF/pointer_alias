@@ -1,0 +1,227 @@
+@1      function_decl    name: @2       type: @3       srcp: c4.c:972    
+                         link: extern   body: @4      
+@2      identifier_node  strg: statement               lngt: 9       
+@3      function_type    unql: @5       size: @6       algn: 8       
+                         retn: @7      
+@4      bind_expr        type: @7       vars: @8       body: @9      
+@5      function_type    size: @6       algn: 8        retn: @7      
+@6      integer_cst      type: @10      low : 8       
+@7      void_type        name: @11      algn: 8       
+@8      var_decl         name: @12      type: @13      scpe: @1      
+                         srcp: c4.c:982                chan: @14     
+                         size: @15      algn: 64       used: 1       
+@9      statement_list   0   : @16      1   : @17      2   : @18     
+@10     integer_type     name: @19      size: @15      algn: 64      
+                         prec: 64       sign: unsigned min : @20     
+                         max : @21     
+@11     type_decl        name: @22      type: @7       srcp: <built-in>:0      
+@12     identifier_node  strg: a        lngt: 1       
+@13     pointer_type     size: @15      algn: 64       ptd : @23     
+@14     var_decl         name: @24      type: @13      scpe: @1      
+                         srcp: c4.c:982                size: @15     
+                         algn: 64       used: 1       
+@15     integer_cst      type: @10      low : 64      
+@16     decl_expr        type: @7      
+@17     decl_expr        type: @7      
+@18     cond_expr        type: @7       op 0: @25      op 1: @26     
+                         op 2: @27     
+@19     identifier_node  strg: bit_size_type           lngt: 13      
+@20     integer_cst      type: @10      low : 0       
+@21     integer_cst      type: @10      low : -1      
+@22     identifier_node  strg: void     lngt: 4       
+@23     integer_type     name: @28      size: @29      algn: 32      
+                         prec: 32       sign: signed   min : @30     
+                         max : @31     
+@24     identifier_node  strg: b        lngt: 1       
+@25     eq_expr          type: @23      op 0: @32      op 1: @33     
+@26     statement_list   0   : @34      1   : @35      2   : @36     
+                         3   : @37      4   : @38      5   : @39     
+                         6   : @40      7   : @41      8   : @42     
+@27     cond_expr        type: @7       op 0: @43      op 1: @44     
+                         op 2: @45     
+@28     type_decl        name: @46      type: @23      srcp: <built-in>:0      
+@29     integer_cst      type: @10      low : 32      
+@30     integer_cst      type: @23      high: -1       low : -2147483648 
+@31     integer_cst      type: @23      low : 2147483647 
+@32     var_decl         name: @47      type: @23      srcp: c4.c:57     
+                         size: @29      algn: 32       used: 1       
+@33     integer_cst      type: @23      low : 137     
+@34     call_expr        type: @7       fn  : @48      0   : @33     
+@35     call_expr        type: @7       fn  : @49      0   : @50     
+@36     call_expr        type: @7       fn  : @51      0   : @52     
+@37     call_expr        type: @7       fn  : @53      0   : @54     
+@38     modify_expr      type: @23      op 0: @55      op 1: @56     
+@39     modify_expr      type: @13      op 0: @14      op 1: @57     
+@40     call_expr        type: @7       fn  : @58     
+@41     cond_expr        type: @7       op 0: @59      op 1: @60     
+@42     modify_expr      type: @23      op 0: @61      op 1: @62     
+@43     eq_expr          type: @23      op 0: @32      op 1: @63     
+@44     statement_list   0   : @64      1   : @65      2   : @66     
+                         3   : @67      4   : @68      5   : @69     
+                         6   : @70      7   : @71      8   : @72     
+                         9   : @73      10  : @74     
+@45     cond_expr        type: @7       op 0: @75      op 1: @76     
+                         op 2: @77     
+@46     identifier_node  strg: int      lngt: 3       
+@47     identifier_node  strg: token    lngt: 5       
+@48     addr_expr        type: @78      op 0: @79     
+@49     addr_expr        type: @78      op 0: @79     
+@50     integer_cst      type: @23      low : 40      
+@51     addr_expr        type: @78      op 0: @80     
+@52     integer_cst      type: @23      low : 142     
+@53     addr_expr        type: @78      op 0: @79     
+@54     integer_cst      type: @23      low : 41      
+@55     indirect_ref     type: @23      op 0: @81     
+@56     integer_cst      type: @23      low : 4       
+@57     preincrement_expr type: @13      op 0: @82      op 1: @83     
+@58     addr_expr        type: @84      op 0: @1      
+@59     eq_expr          type: @23      op 0: @32      op 1: @85     
+@60     statement_list   0   : @86      1   : @87      2   : @88     
+                         3   : @89      4   : @90     
+@61     indirect_ref     type: @23      op 0: @14     
+@62     nop_expr         type: @23      op 0: @91     
+@63     integer_cst      type: @23      low : 141     
+@64     call_expr        type: @7       fn  : @92      0   : @63     
+@65     modify_expr      type: @13      op 0: @8       op 1: @93     
+@66     call_expr        type: @7       fn  : @94      0   : @50     
+@67     call_expr        type: @7       fn  : @95      0   : @52     
+@68     call_expr        type: @7       fn  : @96      0   : @54     
+@69     modify_expr      type: @23      op 0: @97      op 1: @56     
+@70     modify_expr      type: @13      op 0: @14      op 1: @98     
+@71     call_expr        type: @7       fn  : @99     
+@72     modify_expr      type: @23      op 0: @100     op 1: @101    
+@73     modify_expr      type: @23      op 0: @102     op 1: @103    
+@74     modify_expr      type: @23      op 0: @104     op 1: @105    
+@75     eq_expr          type: @23      op 0: @32      op 1: @106    
+@76     statement_list   0   : @107     1   : @108     2   : @109    
+                         3   : @110     4   : @111     5   : @112    
+                         6   : @113     7   : @114    
+@77     cond_expr        type: @7       op 0: @115     op 1: @116    
+                         op 2: @117    
+@78     pointer_type     size: @15      algn: 64       ptd : @118    
+@79     function_decl    name: @119     type: @118     srcp: c4.c:7      
+                         body: undefined               link: extern  
+@80     function_decl    name: @120     type: @118     srcp: c4.c:421    
+                         args: @121     link: extern  
+@81     preincrement_expr type: @13      op 0: @82      op 1: @83     
+@82     var_decl         name: @122     type: @13      srcp: c4.c:40     
+                         size: @15      algn: 64       used: 1       
+@83     integer_cst      type: @123     low : 4       
+@84     pointer_type     size: @15      algn: 64       ptd : @3      
+@85     integer_cst      type: @23      low : 135     
+@86     call_expr        type: @7       fn  : @124     0   : @85     
+@87     modify_expr      type: @23      op 0: @125     op 1: @126    
+@88     modify_expr      type: @23      op 0: @127     op 1: @101    
+@89     modify_expr      type: @13      op 0: @14      op 1: @128    
+@90     call_expr        type: @7       fn  : @129    
+@91     convert_expr     type: @130     op 0: @131    
+@92     addr_expr        type: @78      op 0: @79     
+@93     pointer_plus_expr type: @13      op 0: @82      op 1: @83     
+@94     addr_expr        type: @78      op 0: @79     
+@95     addr_expr        type: @78      op 0: @80     
+@96     addr_expr        type: @78      op 0: @79     
+@97     indirect_ref     type: @23      op 0: @132    
+@98     preincrement_expr type: @13      op 0: @82      op 1: @83     
+@99     addr_expr        type: @84      op 0: @1      
+@100    indirect_ref     type: @23      op 0: @133    
+@101    integer_cst      type: @23      low : 2       
+@102    indirect_ref     type: @23      op 0: @134    
+@103    nop_expr         type: @23      op 0: @135    
+@104    indirect_ref     type: @23      op 0: @14     
+@105    nop_expr         type: @23      op 0: @136    
+@106    integer_cst      type: @23      low : 123     
+@107    call_expr        type: @7       fn  : @137     0   : @106    
+@108    goto_expr        type: @7       labl: @138    
+@109    label_expr       type: @7       name: @139    
+@110    call_expr        type: @7       fn  : @140    
+@111    label_expr       type: @7       name: @138    
+@112    cond_expr        type: @7       op 0: @141     op 1: @142    
+                         op 2: @143    
+@113    label_expr       type: @7       name: @144    
+@114    call_expr        type: @7       fn  : @145     0   : @146    
+@115    eq_expr          type: @23      op 0: @32      op 1: @147    
+@116    statement_list   0   : @148     1   : @149     2   : @150    
+                         3   : @151    
+@117    cond_expr        type: @7       op 0: @152     op 1: @153    
+                         op 2: @154    
+@118    function_type    size: @6       algn: 8        retn: @7      
+                         prms: @155    
+@119    identifier_node  strg: match    lngt: 5       
+@120    identifier_node  strg: expression              lngt: 10      
+@121    parm_decl        name: @156     type: @23      scpe: @80     
+                         srcp: c4.c:421                argt: @23     
+                         size: @29      algn: 32       used: 1       
+@122    identifier_node  strg: text     lngt: 4       
+@123    integer_type     name: @157     size: @15      algn: 64      
+                         prec: 64       sign: unsigned min : @158    
+                         max : @159    
+@124    addr_expr        type: @78      op 0: @79     
+@125    indirect_ref     type: @23      op 0: @14     
+@126    nop_expr         type: @23      op 0: @160    
+@127    indirect_ref     type: @23      op 0: @161    
+@128    preincrement_expr type: @13      op 0: @82      op 1: @83     
+@129    addr_expr        type: @84      op 0: @1      
+@130    integer_type     name: @162     size: @15      algn: 64      
+                         prec: 64       sign: signed   min : @163    
+                         max : @164    
+@131    pointer_plus_expr type: @13      op 0: @82      op 1: @83     
+@132    preincrement_expr type: @13      op 0: @82      op 1: @83     
+@133    preincrement_expr type: @13      op 0: @82      op 1: @83     
+@134    preincrement_expr type: @13      op 0: @82      op 1: @83     
+@135    convert_expr     type: @130     op 0: @8      
+@136    convert_expr     type: @130     op 0: @165    
+@137    addr_expr        type: @78      op 0: @79     
+@138    label_decl       type: @7       scpe: @1       srcp: c4.c:1050   
+                         note: artificial 
+@139    label_decl       type: @7       scpe: @1       srcp: c4.c:1050   
+                         note: artificial 
+@140    addr_expr        type: @84      op 0: @1      
+@141    ne_expr          type: @23      op 0: @32      op 1: @146    
+@142    goto_expr        type: @7       labl: @139    
+@143    goto_expr        type: @7       labl: @144    
+@144    label_decl       type: @7       scpe: @1       srcp: c4.c:1050   
+                         note: artificial 
+@145    addr_expr        type: @78      op 0: @79     
+@146    integer_cst      type: @23      low : 125     
+@147    integer_cst      type: @23      low : 139     
+@148    call_expr        type: @7       fn  : @166     0   : @147    
+@149    cond_expr        type: @7       op 0: @167     op 1: @168    
+@150    call_expr        type: @7       fn  : @169     0   : @170    
+@151    modify_expr      type: @23      op 0: @171     op 1: @172    
+@152    eq_expr          type: @23      op 0: @32      op 1: @170    
+@153    call_expr        type: @7       fn  : @173     0   : @170    
+@154    statement_list   0   : @174     1   : @175    
+@155    tree_list        valu: @23      chan: @176    
+@156    identifier_node  strg: level    lngt: 5       
+@157    type_decl        name: @177     type: @178     srcp: <built-in>:0      
+@158    integer_cst      type: @178     low : 0       
+@159    integer_cst      type: @123     high: -1       low : -1      
+@160    convert_expr     type: @130     op 0: @179    
+@161    preincrement_expr type: @13      op 0: @82      op 1: @83     
+@162    type_decl        name: @180     type: @130     srcp: <built-in>:0      
+@163    integer_cst      type: @130     high: -1       low : 0       
+@164    integer_cst      type: @130     low : -1      
+@165    pointer_plus_expr type: @13      op 0: @82      op 1: @83     
+@166    addr_expr        type: @78      op 0: @79     
+@167    ne_expr          type: @23      op 0: @32      op 1: @170    
+@168    call_expr        type: @7       fn  : @181     0   : @52     
+@169    addr_expr        type: @78      op 0: @79     
+@170    integer_cst      type: @23      low : 59      
+@171    indirect_ref     type: @23      op 0: @182    
+@172    integer_cst      type: @23      low : 8       
+@173    addr_expr        type: @78      op 0: @79     
+@174    call_expr        type: @7       fn  : @183     0   : @52     
+@175    call_expr        type: @7       fn  : @184     0   : @170    
+@176    tree_list        valu: @7      
+@177    identifier_node  strg: long unsigned int       lngt: 17      
+@178    integer_type     name: @157     size: @15      algn: 64      
+                         prec: 64       sign: unsigned min : @158    
+                         max : @185    
+@179    pointer_plus_expr type: @13      op 0: @82      op 1: @186    
+@180    identifier_node  strg: long int lngt: 8       
+@181    addr_expr        type: @78      op 0: @80     
+@182    preincrement_expr type: @13      op 0: @82      op 1: @83     
+@183    addr_expr        type: @78      op 0: @80     
+@184    addr_expr        type: @78      op 0: @79     
+@185    integer_cst      type: @178     low : -1      
+@186    integer_cst      type: @123     low : 12      

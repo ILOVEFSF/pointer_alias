@@ -1,0 +1,65 @@
+@1      function_decl    name: @2       type: @3       srcp: c4.c:1345   
+                         link: extern   body: @4      
+@2      identifier_node  strg: start_program           lngt: 13      
+@3      function_type    unql: @5       size: @6       algn: 8       
+                         retn: @7      
+@4      bind_expr        type: @7       body: @8      
+@5      function_type    size: @6       algn: 8        retn: @7      
+@6      integer_cst      type: @9       low : 8       
+@7      void_type        name: @10      algn: 8       
+@8      statement_list   0   : @11      1   : @12      2   : @13     
+                         3   : @14      4   : @15      5   : @16     
+                         6   : @17      7   : @18     
+@9      integer_type     name: @19      size: @20      algn: 64      
+                         prec: 64       sign: unsigned min : @21     
+                         max : @22     
+@10     type_decl        name: @23      type: @7       srcp: <built-in>:0      
+@11     call_expr        type: @7       fn  : @24     
+@12     goto_expr        type: @7       labl: @25     
+@13     label_expr       type: @7       name: @26     
+@14     call_expr        type: @7       fn  : @27     
+@15     label_expr       type: @7       name: @25     
+@16     cond_expr        type: @7       op 0: @28      op 1: @29     
+                         op 2: @30     
+@17     label_expr       type: @7       name: @31     
+@18     return_expr      type: @7      
+@19     identifier_node  strg: bit_size_type           lngt: 13      
+@20     integer_cst      type: @9       low : 64      
+@21     integer_cst      type: @9       low : 0       
+@22     integer_cst      type: @9       low : -1      
+@23     identifier_node  strg: void     lngt: 4       
+@24     addr_expr        type: @32      op 0: @33     
+@25     label_decl       type: @7       scpe: @1       srcp: c4.c:1350   
+                         note: artificial 
+@26     label_decl       type: @7       scpe: @1       srcp: c4.c:1350   
+                         note: artificial 
+@27     addr_expr        type: @34      op 0: @35     
+@28     gt_expr          type: @36      op 0: @37      op 1: @38     
+@29     goto_expr        type: @7       labl: @26     
+@30     goto_expr        type: @7       labl: @31     
+@31     label_decl       type: @7       scpe: @1       srcp: c4.c:1350   
+                         note: artificial 
+@32     pointer_type     size: @20      algn: 64       ptd : @39     
+@33     function_decl    name: @40      type: @39      srcp: c4.c:174    
+                         link: extern  
+@34     pointer_type     size: @20      algn: 64       ptd : @41     
+@35     function_decl    name: @42      type: @41      srcp: c4.c:1283   
+                         link: extern  
+@36     integer_type     name: @43      size: @44      algn: 32      
+                         prec: 32       sign: signed   min : @45     
+                         max : @46     
+@37     var_decl         name: @47      type: @36      srcp: c4.c:57     
+                         size: @44      algn: 32       used: 1       
+@38     integer_cst      type: @36      low : 0       
+@39     function_type    unql: @5       size: @6       algn: 8       
+                         retn: @7      
+@40     identifier_node  strg: scanner  lngt: 7       
+@41     function_type    unql: @5       size: @6       algn: 8       
+                         retn: @7      
+@42     identifier_node  strg: global_declaration      lngt: 18      
+@43     type_decl        name: @48      type: @36      srcp: <built-in>:0      
+@44     integer_cst      type: @9       low : 32      
+@45     integer_cst      type: @36      high: -1       low : -2147483648 
+@46     integer_cst      type: @36      low : 2147483647 
+@47     identifier_node  strg: token    lngt: 5       
+@48     identifier_node  strg: int      lngt: 3       
